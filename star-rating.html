@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>API Login</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+    <div id="app">
+      <h2>Capture Mouse Over Rating</h2>
+      <div @onselect="showCurrentRating(0)" style="display:inline-block;">
+        <star-rating :show-rating="false" @current-rating="showCurrentRating" @rating-selected="setCurrentSelectedRating" :increment="0.5"></star-rating>
+      </div>
+      <div style="margin-top:10px;font-weight:bold;">{{currentRating}}</div>        
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script src="https://unpkg.com/vuex@3.1.0/dist/vuex.js"></script>
+<script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
+<script>
+Vue.component('star-rating', VueStarRating.default)
+new Vue({
+  el: '#app',
+  data() {
+    return {
+      currentRating: "No Rating",
+      currentSelectedRating: "No Current Rating",
+      value:[]
+    }
+  },
+  methods: {
+    showCurrentRating: function(rating) {
+      this.currentRating = (rating === 0) ? this.currentSelectedRating : "Click to select " + rating + " stars"
+      console.log(rating)
+    },
+    setCurrentSelectedRating: function(rating) {
+      this.currentSelectedRating = "You have Selected: " + rating + " stars";
+    }
+    }
+})
+</script>
+</body>
+</html>

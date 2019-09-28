@@ -1,0 +1,337 @@
+.row .header {
+    background: #021d19;
+  }
+  .row .header h4 {
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .col-sm-4 .iconspos .fa {
+    padding: 12px;
+    font-size: 16px;
+    float: right;
+    color: #ffffff;
+  }
+  
+  .row .tabmenu {
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+  }
+  
+  .col-sm-4 .activation {
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 11px;
+  }
+  
+  .activation a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none
+  }
+  
+  .activation a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .inactivation a {
+    color: #b1b1b1b1;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .inactivation a:hover {
+    text-decoration: none;
+    color: #b1b1b1b1;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .roClass{
+    margin-top: 10px;
+    border-bottom: 1px
+  }
+  
+  .imagecustom {
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .roClass .col-sm-9 p {
+    margin: 4px 6px 4px 0px;
+  }
+  
+  .roClass .name {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+  }
+  
+  .roClass .msg {
+    text-decoration: none;
+    color: #b1b1b1b1;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  
+  .row .p-8 {
+    padding: 8px;
+  }
+  .imagecustoms {
+    padding: 2px;
+    border-radius: 30px;
+    border: 3px solid green;
+    width: 58px;
+    height: 58px;
+  }
+  .myStatus{
+    padding: 0px 20px
+  }
+  .recent{
+    background-color: grey;
+    padding: 4px;
+    
+  }
+  .recent p {
+    margin:0px !important
+  }
+
+
+  /*-------------------------------------------------------------*/
+.starredmessages{
+  background-color: #49b396;
+  color:white;
+  text-align: center;
+  font-size: 54px;
+  padding: 40px;
+  border-radius: 50%;
+}
+.startext{
+  text-align: center;
+}
+
+.msg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+.msg .bubble {
+  float: left;
+  max-width: 75%;
+  width: auto;
+  height: auto;
+  display: block;
+  background: #ebebeb;
+  border-radius: 5px;
+  position: relative;
+  margin: 10px 0 3px 10px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.msg .bubble.alt {
+  margin: 10px 25px 3px 0px;
+  background: #DCF8C6;
+  float: right;
+}
+.msg .bubble.follow {
+  margin: 2px 0 3px 25px;
+}
+.msg .bubble.altfollow {
+  margin: 2px 10px 3px 0px;
+  background: #DCF8C6;
+  float: right;
+}
+.msg .bubble .txt {
+  padding: 8px 0 8px 0;
+  width: 100%;
+}
+.msg .bubble .txt .name {
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-table;
+  padding: 0 0 0 15px;
+  margin: 0 0 4px 0;
+  color: #3498db;
+}
+.msg .bubble .txt .name span {
+  font-weight: normal;
+  color: #b3b3b3;
+  overflow: hidden;
+}
+.msg .bubble .txt .name.alt {
+  color: #2ecc51;
+}
+.msg .bubble .txt .message {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 15px 0 15px;
+  margin: auto;
+  color: #2b2b2b;
+  display: table;
+}
+.msg .bubble .txt .timestamp {
+  font-size: 11px;
+  margin: auto;
+  padding: 0 16px 0 16px;
+  display: table;
+  float: right;
+  position: relative;
+  text-transform: uppercase;
+  color: #999;
+}
+.msg .bubble .bubble-arrow {
+  position: absolute;
+  float: left;
+  left: -11px;
+  top: 0px;
+}
+.msg .bubble .bubble-arrow.alt {
+  bottom: 20px;
+  left: auto;
+  right: 4px;
+  float: right;
+}
+.msg .bubble .bubble-arrow:after {
+  content: "";
+  position: absolute;
+  border-top: 15px solid #ebebeb;
+  border-left: 15px solid transparent;
+  border-radius: 4px 0 0 0px;
+  width: 0;
+  height: 0;
+}
+.msg .bubble .bubble-arrow.alt:after {
+  border-top: 15px solid #DCF8C6;
+  transform: scaleX(-1);
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+
+  .timestamp {
+    display: none;
+    color: red;
+  }
+}
+.textarea {
+  position: fixed;
+  width: 28%;
+  bottom: 8px;
+  height: 50px;
+  padding: 0 0 0 8px;
+}
+.textarea:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.textarea ::-webkit-input-placeholder {
+  color: #b9b9b9;
+}
+.textarea ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #b9b9b9;
+}
+.textarea :-ms-input-placeholder {
+  color: #b9b9b9;
+}
+.textarea div,
+.textarea textarea {
+  height: 100%;
+  float: left;
+  background: #fff;
+}
+.textarea .emoticons {
+  width: 10%;
+  background: url("http://valeriopierbattista.com/projects/wutsapp/images/dist/smile.png") center center no-repeat #fff;
+  background-size: 20px;
+  border-radius: 5px 0 0 5px;
+}
+.textarea textarea {
+  width: 63%;
+  border: 0;
+  outline: none;
+  padding-top: 14px;
+  resize: none;
+}
+.textarea .photo {
+  width: 10%;
+  border-radius: 0 0 5px 0;
+  position: relative;
+  text-align: center;
+}
+.textarea .photo:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  content: "";
+  top: 0;
+  right: -10px;
+  border-width: 0px 0 10px 10px;
+  border-color: transparent transparent transparent #fff;
+}
+.textarea .photo i {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #7d8488;
+  font-size: 24px;
+}
+.textarea .send-mic {
+  width: 17%;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.textarea .send-mic .circle-cont {
+  color: #fff;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #00897b;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 1px 0 #00564d;
+}
+.textarea .send-mic .circle-cont i {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+.onType {
+  display: none;
+}
+.onFill {
+  display: none;
+}
+.display{
+  display: none;
+}

@@ -1,0 +1,69 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    </head>
+    <body>
+        <div id="app">
+                <div class="container">
+                   <div class="row mainvalue">
+                      <div class="col-sm-4"></div>
+                      <div class="col-sm-4">
+                         <!-- middle container start -->
+                         <div class="row header" style="background:#006253;"  >
+                            <!-- header row start -->
+                            <div class="col-sm-8" >
+                               <h4 style="color: #ffffff;">WhatApp</h4>
+                            </div>
+                            <div class="col-sm-4 iconspos" >
+                               <i class="fa fa-ellipsis-v"></i>
+                               <i class="fa fa-search"></i>
+                            </div>
+                         </div>
+                         <!--header row end -->
+                         <div class="row tabmenu">
+                            <!--header tabs row srart -->
+                            <div class="col-sm-4 activation">
+                               <p>
+                                  <router-link class="tab menu" to = "/chats">CHATS</router-link>
+                               </p>
+                            </div>
+                            <div class="col-sm-4 activation1" >
+                               <p>
+                                  <router-link class="tab menu" to = "/status">STATUS</router-link>
+                               </p>
+                            </div>
+                            <div class="col-sm-4 activation2" >
+                               <p>
+                                  <router-link class="tab menu" to = "/calls">CALLS</router-link>
+                               </p>
+                            </div>
+                         </div>
+                         <!--header tabs row end -->
+                         <div class="row" >
+                            <!--body tab op row start -->
+                            <div class="col-sm-12">
+                               <router-view></router-view>
+                            </div>
+                         </div>
+                         <!--body tab op row end -->
+                         <!-- middle container end -->
+                      </div>
+                      <div class="col-sm-4"></div>
+                   </div>
+                </div>
+             </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="https://unpkg.com/vue/dist/vue.js"></script>
+      <script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
+      <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+      <script src="https://unpkg.com/vuex@3.1.0/dist/vuex.js"></script>
+      <script src="index.js"></script>
+  </body>
+</html>

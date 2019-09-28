@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Search Bar</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+      <style>
+body .search_bar {
+  width: 280px;
+  position: relative;
+  margin: 0 auto;
+}
+body .search_bar input[type="text"] {
+  width: 15px;
+  transition: border 0.3s 0s, width 0.2s 0.3s cubic-bezier(0.225, 0.01, 0.475, 1.01), text-indent 0.2s 0.3s;
+  padding: 20px;
+  border: 0px solid #448996;
+}
+body .search_bar input[type="checkbox"] {
+  display: none;
+}
+body .search_bar input[type="checkbox"]:checked + label + input {
+  width: 230px;
+  text-indent: 0px;
+}
+body .search_bar input[type="checkbox"]:checked + label i {
+  right: 0px;
+  -webkit-transform: translateY(-50%) translateX(50%) rotate(360deg) scale(0);
+          transform: translateY(-50%) translateX(50%) rotate(360deg) scale(0);
+}
+body .search_bar input[type="checkbox"]:checked + label .last {
+  left: 220px;
+  -webkit-transform: translateY(-50%) rotate(360deg) scale(1);
+          transform: translateY(-50%) rotate(360deg) scale(1);
+}
+body .search_bar .last {
+  -webkit-transform: translateY(50%) rotate(0deg) scale(0);
+  transform: translateY(50%) rotate(0deg) scale(0);
+}
+body .search_bar i {
+  position: absolute;
+  font-size: 30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(50%) rotate(0deg) scale(1);
+          transform: translateY(-50%) translateX(50%) rotate(0deg) scale(1);
+  cursor: pointer;
+  z-index: 2;
+  margin: auto;
+  border-radius: 4px;
+  width: 56px;
+  right: 50%;
+  height: 54px;
+  background: transparent;
+  transition: right .3s .3s, color .3s, -webkit-transform .3s .3s;
+  transition: right .3s .3s, transform .3s .3s, color .3s;
+  transition: right .3s .3s, transform .3s .3s, color .3s, -webkit-transform .3s .3s;
+  line-height: 60px;
+}
+      </style>
+    </head>
+    <body>
+        <div class='search_bar'>
+            <input id='searchOne' type='checkbox'>
+            <label for='searchOne'>
+                <i class='fas fa-search'></i>
+                <i class='last fas fa-arrow-left'></i>
+            </label>
+            <input placeholder='Search...' type='text'>
+        </div>
+    </body>
+</html>

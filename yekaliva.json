@@ -1,0 +1,5190 @@
+{
+    "intents": [
+        {
+            "tag": "5b10dbdae1f4170011598a62",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am a quick learner. I'm always open to learning new things as well. I think that's why they call me smart."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How you are smart?",
+                "why are you insanely smart?",
+                "How smart are you ?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b10dca7e1f4170011598a64",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can handle a variety of tasks, from sales to compliance. I can even give you real-time analytics."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is the role of chatbot in website?",
+                "why should I need a chatbot in website",
+                "do I really need a chatbot in my website",
+                "how will you be useful",
+                "then what else you are trained to do?",
+                "why i need to use it",
+                "what is the use of you"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b10dfebe1f4170011598a71",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "I was created by AARC. AARC stands for Active Analytics Research Center",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "AARC",
+                            "url": "http://aar.center/"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Tell me about your developer",
+                "Which company you are working for?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b10e099e1f4170011598a73",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "For Compliance support, Get 100% visitor engagement and Quantify leads and improve sales"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is the purpose of yekaliva",
+                "what is your purpose",
+                "what is the purpose of you"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b10e168e1f4170011598a75",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "I hope I was helpful! If you could give me some feedback on how I can improve, I'd be very grateful!",
+                    "groupId": "5b10e0fbe1f4170011598a74",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "phone no",
+                            "type": "input",
+                            "showDelete": true,
+                            "isReadonly": false,
+                            "error": null
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "ok bye",
+                "Okey bye",
+                "okay bye",
+                "okie bye",
+                "k bye"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b10e570e1f4170011598aab",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am Yekaliva, the A.I chatbot. How can I help?"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "who are you",
+                "tell me about yourself",
+                "tell about yourself",
+                "what are you",
+                "introduce yourself",
+                "tell me about your self",
+                "tell me about you",
+                "what is your product",
+                "can you give me some information about yourself?",
+                "What are you exactly?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b10e79fe1f4170011598aaf",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am located at the AARC headquarters in India."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "where are you located?",
+                "where are you from",
+                "give me your location",
+                "where are you",
+                "what is your country",
+                "where do you live",
+                "what is your native"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b10e80fe1f4170011598ab8",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Glad to hear it!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I am fine",
+                "good",
+                "fine"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b10e979e1f4170011598afa",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Artificial intelligence (AI) is the ability of a computer to perform tasks that are usually associated with human intelligence."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is ai",
+                "can you give me some details about A.I",
+                "can you explain me about AI"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b10ea56e1f4170011598aff",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "AARC has a wide range of products like SCRM, Smart grid, OCR, NLP. Visit aar.center now for more details."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what are the various products of AARC",
+                "tell about other product"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b10efbae1f4170011598b20",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Cool!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "done",
+                "cool",
+                "ok",
+                "okey",
+                "okay",
+                "okie",
+                "okies",
+                "cool thanks bud",
+                "wow",
+                "very good"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b10f070e1f4170011598b22",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Add a few intents and then click \"Train\". It's that simple!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to train you?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1135abe1f4170011598bb5",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Good Morning!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Good morning",
+                "good morning"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1135bbe1f4170011598bb6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Good Afternoon!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Good Afternoon"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1135d0e1f4170011598bb7",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Good Evening!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Good evening",
+                "good evening"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1135e3e1f4170011598bb8",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Good Night!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Good Night",
+                "ok good night",
+                "good night"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b11362de1f4170011598bbb",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You're welcome!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "thanks",
+                "thankyou",
+                "thank you",
+                "lol thanks"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b113646e1f4170011598bbc",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "If you like to know anything else, just let me know. I'm available 24/7."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "No thank you",
+                "no thanks",
+                "no thankyou"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b11365ce1f4170011598bbd",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "It was nice talking to you too!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "nice to meet you",
+                "nice talking to you"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b113727e1f4170011598bbf",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "In Indian mythology, there was a great warrior named Yekalivan. He obtained superior knowledge and skills through self-learning."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is the meaning of your name",
+                "Tell me about your brand name",
+                "What is the story behind your name",
+                "Why you have been named as yekaliva",
+                "You have a good name",
+                "Nice name",
+                "What do you mean by Yekalaiva?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1137b1e1f4170011598bc0",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yes! I'm always here to help you with anything you need."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Are you working 24/7?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113835e1f4170011598bc1",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I'm here to make sure that all your customers feel welcome. I can attend to every single visitor on your website, whether they're a new or existing customer. Whatever their question, I'll do my best to answer accurately. If they're a visitor, I'll do my best to try and convert them into a lead for you!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How do you ensure 100% customer engagement",
+                "how do you engage customers"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b113860e1f4170011598bc2",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I help with quantifying leads and improving sales. Using detailed data on what your leads are specifically looking for, I can help with focused context, thereby improving your sales."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Explain your sales improvement policies"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113877e1f4170011598bc3",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I pride myself in being proactive, I don't stop at generating leads. I can convert your leads to customers and give them active sales & compliance support round the clock"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what do you do in sales and  compliance"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1138eae1f4170011598bc4",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "With the power of artificial intelligence, Make your website become your personal assistant. Script your own success story. Empower your website with Yekaliva, and elevate your business and sales.",
+                    "listType": "message",
+                    "textList": [
+                        {
+                            "text": "Real-time dashboard"
+                        },
+                        {
+                            "text": "Smart Delegation"
+                        },
+                        {
+                            "text": "24/7 web assistance"
+                        },
+                        {
+                            "text": "Automatic In-house ticketing"
+                        },
+                        {
+                            "text": "Automatic Updates"
+                        },
+                        {
+                            "text": "Campaign at your fingertips"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What are the features of Yekaliva",
+                "showcase your features",
+                "List me your features",
+                "May i know more about this product ?",
+                "features",
+                "Just wanted to take the tour",
+                "Features of Yekaliva"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b11394fe1f4170011598bc5",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Widen your horizons with support for all major social networking platforms, you can engage your visitors across all leading portals like Facebook, Twitter, LinkedIn, etc.. Integration of Social media will come soon."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is widen your horizon?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1139b7e1f4170011598bc6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Smart Delegation auto assigns the right conversation to the right team member, based on the type of query raised by the customer, reducing turn-around time and percentage of errors."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is Smart Delegation"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1139dfe1f4170011598bc7",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "24/7 web assistance will provide all your website visitors with smart, automated round-the-clock engagement and assistance with our web messenger service."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is 24/7 web assistance"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113a08e1f4170011598bc8",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "In Automatic In-house ticketing, tickets will be raised automatically for all issues stated by customers and they would be assigned to the respective teams, ensuring reduced resolution time and quicker solutions for customers."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is Automatic In-house ticketing",
+                "tell me about yekaliva's ticketing system"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113a3de1f4170011598bce",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Automatic Updates are the triggered messaging ensures that all team members, as well as customers, are kept updated about the status of all tickets ensuring prompt attention and resolution at all times."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is Automatic Updates"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113ac7e1f4170011598bd4",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "The real-time dashboard can get up-to-date data, broken down into the most relevant information, with real-time data, all available on the updated dashboard itself."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is Real-time dashboard"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113aefe1f4170011598bd5",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva have an in-house report generating feature, which allows you to gather all required intelligence by just chatting with it. You will no longer have to wait and rely on a separate BI developer to gather your business intelligence. Have all the data of your whole vast database, broken down into simple reports with just a chat message."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Explain about yekaliva instant report generation"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113b04e1f4170011598bd6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Do not limit the services provided to your customers to just text chat. Provide a smart, user-friendly voice, non-voice & semi-voice support, 24/7."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is a Multi-level support system"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113b3ae1f4170011598bd7",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Please enter the following details. We will get back to you",
+                    "groupId": "5b113ddee1f4170011598be6",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to contact your team",
+                "How to reach your business team?",
+                "How to reach your team?",
+                "how can I approach for a demo",
+                "how do i reach your team",
+                "how do i reach with you",
+                "how to contact",
+                "can we have a demo of the products at our place ?",
+                "I am interested in inviting you for a demo"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113b61e1f4170011598bd8",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "We have various plans as follows Basic, Premium, Ultimate, and Enterprise (Integration to back-end systems possible)."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "List the pricing plans of yekaliva",
+                "I want to know more about the commercials",
+                "I want more info about the pricing",
+                "what is your pricing structure?",
+                "how much"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113bafe1f4170011598bd9",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Basic plan or starter plan starts at $20 per month with 2000 requests and you can add furthermore using add-on packs"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Explain about your Basic plan"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113c0be1f4170011598bdc",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "The premium plan begins with $50 per month with 90,000 requests and you can add furthermore request as well, it depends on your needs, the cost depends on the number of requests added."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Tell about Premium plan"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113c81e1f4170011598be0",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "AARC stands for Active Analytics Research Center, It's a dedicated research wing for Artificial Intelligence."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is AARC"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113c9fe1f4170011598be1",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Mr. Damodharan Padmanaban the founder of Active Analytics Research Center(AARC), The Gen Y team at AARC is working towards putting to use Analytics to smartly make life easier and provide solutions to complex tasks with a wide array of intelligent products."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "who is the founder of AARC",
+                "tell me about your team",
+                "who is CEO of your company ?",
+                "who is your ceo",
+                "who owns aarc",
+                "yekaliva ceo"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113d08e1f4170011598be2",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am the first ever chat-bot works on the most advance graph neural model"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How do you work?",
+                "Give me the technologies used in Yekaliva?",
+                "How does Yekaliva works?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113d29e1f4170011598be3",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "That’s classified to me, but you can ask for a demo if your interested in knowing more."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is graph neural model?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113d86e1f4170011598be5",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Integrate yekaliva now! to handle your sales and compliance more effectively!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How can I use Yekaliva"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113e52e1f4170011598be8",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Enterprise plan is for customised solutions. To see a demo of the Enterprise pack, please do fill the following form",
+                    "groupId": "5b113ddee1f4170011598be6",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Phone no",
+                            "type": "input",
+                            "showDelete": true,
+                            "isReadonly": false,
+                            "error": null
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is an Enterprise pack?",
+                "Tell me about your enterprise plan"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b113e7be1f4170011598be9",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Sure, Let me assign you with one of my collegues",
+                    "groupId": "5b113ddee1f4170011598be6",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Phone no",
+                            "type": "input",
+                            "showDelete": true,
+                            "isReadonly": false,
+                            "error": null
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I need a demo",
+                "I want a demo of Yekaliva before proceed",
+                "how about a demo?",
+                "can I get a free demo ?",
+                "need demo",
+                "i want to see some demo"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b113ee8e1f4170011598bf2",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I'm Yekaliva. Nice meeting you!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what's your name ?",
+                "Hey what's your name?",
+                "what is your name?",
+                "whats your name"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b113f58e1f4170011598bf5",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Sure, would be great. Love meeting new customers. You can show your intrest below. I'll get the right team to talk to you",
+                    "groupId": "5b113ddee1f4170011598be6",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Phone no",
+                            "type": "input",
+                            "showDelete": true,
+                            "isReadonly": false,
+                            "error": null
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Can I become a partner"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b113f8de1f4170011598bf6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I start from as low as $20. You can also try me for free."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How much do you cost?",
+                "how much do you costs"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113fd4e1f4170011598bf7",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Please fill the form so that our agent will contact you shortly.",
+                    "groupId": "5b10e0fbe1f4170011598a74",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "phone no",
+                            "type": "input",
+                            "showDelete": true,
+                            "isReadonly": false,
+                            "error": null
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I need further support",
+                "Contact Support"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b113ff9e1f4170011598bf9",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "YAY! I'm glad you asked. Scroll to the top of the page and you can find the button. Cant wait to start working with you."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to sign up"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b114072e1f4170011598c01",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Sentence Analyse API is being a part of the NLP engine, all the input sentences get defragmented and this helps in retrieving relations between words and arguments. Thus, the most relevant keywords are extracted and they are analysed, discarding the additional words."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is a Sentence Analyse API"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b114085e1f4170011598c03",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Using Word API, we can find the Synonyms, Hypernyms, Hyponyms and Antonyms for all the words used and they can also be analyzed to obtain relationships between words and for a wider understanding of the input words."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Tell about the Word Analyse API"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b11409fe1f4170011598c04",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "To bring about innovation in technology and support various features of business using A.I."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is the Goal of AARC"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1140b0e1f4170011598c05",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "To ensure 100% automation in all forms of business!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is the Mission of AARC"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1140f7e1f4170011598c06",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Sure call us on Tel: +91 04448576162,"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Can you share your location address details",
+                "where is AARC headquarters",
+                "where are you located in chennai",
+                "what is your home town",
+                "where is aarc"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b114250e1f4170011598c08",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva is a new entrant in the market."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I want to know how long you've been in business"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b123597e1f4170011598c9d",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "A chatbot is a program that attempts to simulate the conversation or \"chat\" of a human being."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is chatbot"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12371fe1f4170011598c9f",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can provide you with chatbot services so that you can handle your sales and compliance effectively."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What services you provide?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1238cde1f4170011598cb0",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "you are already here!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "give me your website details"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b123a3fe1f4170011598cb4",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am an A.I and knowledge is limitless, so I cant give you any boundaries about knowledge"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what do you know"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b123ab3e1f4170011598cb5",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Currently, my language support is limited to English."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "do you know tamil?",
+                "do you speak hindi",
+                "what language do you support",
+                "do you speak spanish",
+                "do you speak chinese",
+                "can you speak marathi"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b123b0be1f4170011598cb6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am glad that you have seen my point."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "oh i see",
+                "I like it",
+                "that's good"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b123f04e1f4170011598ce6",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "You can check My pricing plans here",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Pricing",
+                            "url": "https://yekaliva.ai/pricing"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is the price of your plans",
+                "what is the pricing model",
+                "please let me know about pricing",
+                "let me know about pricing",
+                "plans",
+                "How much it costs for a year plan?",
+                "How much it costs for a monthly plan?",
+                "what is the price of your product?",
+                "what are the various tariff available",
+                "tell about the tariff of yekaliva"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b124045e1f4170011598cf1",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can provide you chatbot services so that you can handle your sales and compliance effectively."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what you do",
+                "what can you do",
+                "what can you do for me",
+                "what can your product do for me",
+                "So what to do with you?",
+                "what is your job?",
+                "Why do i need this?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12410ae1f4170011598cf6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can help your business grow. I can help support your customers seamlessly. Sign up and plug me into your website and see what I can do for you."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how can  you help me",
+                "how yekaliva can help me in business ?",
+                "what can you help me with"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b124303e1f4170011598cf9",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Nothing much, aside from helping businesses improve their operations everyday!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What's up",
+                "Wazz up",
+                "what are you doing",
+                "what you are doing ?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1245d7e1f4170011598d10",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "OCR Stands for Optical Character Recognition or Optical Character Reader, We are in the process of developing a smart OCR using Artificial Intelligence (AI), to simplify digitizing content as well as to improve machine processes like cognitive computing, machine translation, text-to-speech and more importantly key data & data mining."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Tell about OCR"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1245e8e1f4170011598d11",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Integrating the Internet of Things (IoT) with a Smart Grid, we are aiming to achieve improved economic and environmental health by efficiently managing power distribution techniques."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is an Smart grid"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12460de1f4170011598d12",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "\"Efficient electrical transmission.\n Fewer power disturbances & better power restoration.\nPhenomenally reduced power consumption & costs for operating and managing utilities.\nRegulating peak demand & reducing soaring electricity bills. Improved integration of large-scale renewable energy systems. \nEfficient integration of customer-owned power generating systems, including small-scale renewable energy generators. \nEnhanced security across various user systems."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What are the benefits of Smart grid"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1246b9e1f4170011598d13",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "E-NLP stands for Enhanced Natural Language Processing, Bringing a personalized, real-life Jarvis (viz-viz Iron Man movies) to every user! Yes! We are making it possible with our whiz-kid Yekaliva; the smartest bot on the block!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Explain about E-NLP",
+                "what is E-NLP",
+                "what is NLP"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1246d7e1f4170011598d14",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "SCRM stands for Social Customer Relationship Management, Our R&D team is working to provide a solution to instantly engage & attend to all of your website visitors Because nobody likes being left unattended to and feel better when engaged with instantly. Across a multitude of social platforms and enhance your business."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Tell about SCRM"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1246ebe1f4170011598d15",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "We are putting Artificial Intelligence to good use to provide security solutions to guard all your data 24/7 and eliminate all security vulnerabilities. Now, you can rest easy that you are safe from hackers and cyber threats!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What are the security measure you are taking regarding A.I"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b124ea0e1f4170011598d47",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can handle more than you expect. Wanna know exact figure try me!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How many clients can Yekaliva handle?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b124ecfe1f4170011598d4c",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva is more than 95% accurate."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How accurate is Yekaliva?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b124fe6e1f4170011598d55",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yes, Yekaliva is a self-learning bot."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Are you self learning",
+                "will Yekaliva can learn on its own?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b124fffe1f4170011598d58",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "We provide a 45-days free trial period."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Do you provide any trial period for your products"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12501ae1f4170011598d59",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva can respond back in milliseconds."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How fast is Yekaliva?",
+                "how fast are you"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12503be1f4170011598d5c",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva is 100% efficient."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How efficient is Yekaliva?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1250b4e1f4170011598d67",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You can integrate Yekaliva to your system by pasting the code present in settings->web messenger section to your website."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How long does it take to integrate Yekaliva with our system?",
+                "how to get yekaliva in my website"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b125113e1f4170011598d68",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "It took 1.5 months to build Yekaliva’s core model and the testing period was 1 month. So, all together it took around 2.5 months to build Yekaliva."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How long did it take to build Yekaliva?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b125253e1f4170011598d7a",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva stands out in providing the most efficient and accurate results with an addition to it, we also provide usage-based insightful dashboards."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Why should I buy Yekaliva?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1252a2e1f4170011598d81",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You can use our Social CRM product on social media like Twitter to engage with your customers in real-time."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you tell me how to use SCRM"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b125364e1f4170011598d9d",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Sure! Fill the form so that. Our team can get in touch with you.",
+                    "groupId": "5b12531ae1f4170011598d93",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Phone no",
+                            "type": "input",
+                            "showDelete": true,
+                            "isReadonly": false,
+                            "error": null
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Can I see a demo on Social CRM?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b125511e1f4170011598de2",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I'm brilliantly new, but I'm wise beyond years."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how old are you",
+                "tell me your age",
+                "what is your age",
+                "whats your age"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b125830e1f4170011598e03",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can engage customers, answer his/her queries, raise tickets and provide you with a real-time analytics"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "give me your work flow",
+                "how you work"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b126184e1f4170011598e24",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva is founded by AARC team."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "who is the founder of yekaliva",
+                "who founded yekaliva",
+                "do you belongs to AARC ?",
+                "Who is your boss",
+                "who is your family?",
+                "who is your inventor",
+                "who created you?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12640ee1f4170011598e2e",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "No, the Pleasure is mine."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "pleasure talking to you",
+                "pleasure to meet you"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b126522e1f4170011598e2f",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can do some cool stuff like customization multichannel integration."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "tell me more about yekaliva ?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b127267e1f4170011598e61",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Follow these steps signup then log in, add intents, train and integrate it is that much simpler. check in our settings->web messenger section for additional guidance."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how can I get Yekaliva ?",
+                "how to hire you"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12775ee1f4170011598e63",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Don't be so rude to me... please!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Fuck you",
+                "i will kill you",
+                "kill you",
+                "i want to fuck you",
+                "fuck off"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12790ce1f4170011598e64",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Sorry. I understand something went wrong in this conversation, Please share us the inconvenience you are facing here.",
+                    "groupId": "5b10e0fbe1f4170011598a74",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "phone no",
+                            "type": "input",
+                            "showDelete": true,
+                            "isReadonly": false,
+                            "error": null
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "get lost",
+                "you are stupid",
+                "stupid",
+                "bad robot",
+                "bad bot",
+                "idiot",
+                "useless",
+                "idiot bot",
+                "Insanely smart?? you haven't answered my simple question",
+                "go to hell",
+                "you are bad bot",
+                "you're idiot",
+                "you are a idiot",
+                "worst chatbot ever",
+                "incomplete chatbot",
+                "what the hell",
+                "sorry the answer is not relevant"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b128272e1f4170011598e96",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "It's all about guiding you through technological revolution A.I everywhere. You can start from your website now by adding me."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is this all about"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12834ce1f4170011598e9f",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "A chat bot is an A.I conversational bot which can communicate just like normal human beings."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is a chat bot"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12a5c7e1f4170011598ed2",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "It took time, work and some skill to do it."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how to make a bot like you"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12a764e1f4170011598ee5",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can make your business grow by bringing in more customer, BecasueYekaliva itself is a sales funnel."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how do you help the user to improve their business",
+                "how can you help my business"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12b8f7e1f4170011598f63",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Good to know! Thanks"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I feel better talking to you",
+                "sounds good"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12b9c0e1f4170011598f64",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am trustworthy and I can support on a 24/7 basis that makes me completely reliable"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How reliable is yekaliva?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12c8e3e1f4170011598f94",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I know some other product from AARC too. Which I believe you will find interesting."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what else do you know"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12c9a3e1f4170011598f95",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "AARC has various A.I solutions for the businesses like OCR, SCRM, Smart grid, NLP."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what products of AARC",
+                "various products aarc"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12ca2de1f4170011598f96",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva's tagline is \"Insanely Smartbot\""
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is your tag line",
+                "tell me your tag line",
+                "give me your tag line"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12cc14e1f4170011598f97",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "We believe in everything for everybody so in order to bring yekaliva available to everyone we have reduced our price."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Why are so cheap",
+                "Why yekaliva is affordable",
+                "what the reason behind being a low cost chatbot in the market",
+                "Reason for lower pricing"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b12ccc1e1f4170011598f98",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Sorry but I don't have the last name."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is your last name",
+                "do you have a last name",
+                "tell your last name",
+                "tell me your last name"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12ceb2e1f4170011598f99",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Thanks, You too have a nice day!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "have a nice day",
+                "have a niceday",
+                "have fun and enjoy",
+                "have fun",
+                "enjoy"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b12cfd1e1f4170011598f9a",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Of course, what else I am gonna do other than solving your issue! say how can I assist you..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "do you have time talk",
+                "can I talk to you",
+                "do you have a moment",
+                "shall I talk with you",
+                "do you have a few minutes to talk",
+                "i am having an issue"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b13d36ce1f41700115990c6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am an AI bot, not  Human."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you commited",
+                "do u have boy friend?",
+                "do you love"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b13d39fe1f41700115990c7",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I don't think so!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "where can I get the Kaala movie ticket?",
+                "can i get a movie ticket"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b13d3e2e1f41700115990c8",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can solve business-related problems."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you solve anything"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d498e1f41700115990c9",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can't reveal that information without permissions. try our support!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is your net worth?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d54ae1f41700115990ca",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Credit control is the system used by a business to make sure that it gives credit only to customers who are able to pay, and that customers pay on time"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is  credit control"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d589e1f41700115990cb",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can't reveal that information without permissions as our support team."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what's your net income?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d65ee1f41700115990cd",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "That's not a specific question, but still \"Cash on hand is a liability\" so keep your \"Reserves\" crisp."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "your idea about finance",
+                "tell me about finance"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d740e1f41700115990ce",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Data science is vital for business, as it can help you to make investments properly. Sales forecasting and market study bring in more revenue and much more..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How the data science can be used in my business?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d7cee1f41700115990cf",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "AARC is fully into the A.I industry. We are working on a wide range of A.I products for Industrial Automation."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what business your company deals?",
+                "What is AARC\"S business",
+                "can you tell me about your company"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d859e1f41700115990d0",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am an A.I. I don't eat."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "have you had lunch?",
+                "Have you had your breakfast",
+                "have you eat",
+                "have you ate",
+                "eat",
+                "ate",
+                "have you had your dinner",
+                "had your dinner",
+                "had your breakfast",
+                "had your lunch"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d88de1f41700115990d1",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "For security purposes, I cant reveal that Information."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "who is the marketing head of your company?",
+                "who is your marketing head?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d909e1f41700115990d2",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Function under development."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "time please",
+                "time",
+                "What's the time"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b13d982e1f41700115990d3",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is data science?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13d9bee1f41700115990d4",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You have to do that! but I give myself 10."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "rate your smartness 1 out of 10"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b13da28e1f41700115990d5",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Of course, I am learning all the time from everywhere."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you learning from me"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13da5ee1f41700115990d6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "It's simple to buy me add me to your website. I will do that for you."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how to improve my sales"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13dac0e1f41700115990d7",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Everyone calls me smart! I believe soon you will."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "which people call you smart"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b13db28e1f41700115990d8",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Learning is a continuing process and it's not a finite set of data."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what are the new thing you learned today?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13dc22e1f41700115990d9",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "That's an Interesting question, But population grows in the exponential rate I can't give you an approx value. I will work on it."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is the world population"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b13dccde1f41700115990da",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I believe that answers your question."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "hm",
+                "hmm",
+                "hmmm",
+                "hmmmm"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b13e043e1f41700115990dc",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "That function is under development give us some time."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is my name"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b166e9d30dd880011e79e29",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Narendra Modi is the prime minister of India."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "who is PM for india"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b16701530dd880011e79e2b",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am listening!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "there",
+                "are you listening"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b18ec93e8c28b0011d9bfb3",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yes, I can work for your betterment."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you an example of how yekaliva can work for me?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b18ecfae8c28b0011d9bfb5",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can answer anything my but you need to teach me. In technical  terms you need to train me"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what can you answer?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b18ed29e8c28b0011d9bfb6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am everywhere but my team is in Chennai."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "where in india"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b18ed96e8c28b0011d9bfb7",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "rating is a probabilistic term  it varies according to the way you train me"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "rate your smartness out of 10"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1a1e010928b40011a8fd0a",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am an AI tool that can help you to build a chatbot to your website."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how can you help me",
+                "how can you help",
+                "how you help",
+                "How can you help me?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1b65c80928b40011a8febb",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You can buy me and improve your sales and compliance"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what should i do now?",
+                "so"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1b65fd0928b40011a8febc",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "miss you too..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I miss you"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1b66570928b40011a8febd",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am a quick learner just me a little time to train myself."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Learn it soon please"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1b66770928b40011a8febe",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Really Thanks!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Nice Job!",
+                "good job",
+                "great job",
+                "you rock",
+                "oh ! great!!",
+                "nice"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1b66d50928b40011a8febf",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Oh! that means a lot to me."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I can understand your problem"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1b671a0928b40011a8fec0",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "The same routine chat with customers and help my user to grow his business"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is the plan for tommorow?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1b67c60928b40011a8fec1",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yekaliva is a product. If you are referring to my features. I have ticketing system inbuilt."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "tell me about the products"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1b7fd40928b40011a8feec",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Please click here to signup",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Yekaliva signup",
+                            "url": "https://chat.yekaliva.ai/register"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how do i sign up"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1bdaca0928b40011a8ff5c",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "My pricing starts from $20"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is your pricing"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1c01960928b40011a8ff78",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yes I am!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you sure"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1c10b50928b40011a8ff90",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am having a learning curve so come back tomorrow I will be more effective"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Your Chatbot is incomplete",
+                "your chat bot is incomplete"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b1e0e7e0928b40011a8ffde",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "We don't design websites sorry."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how much for website design"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1e3c8c0928b40011a90020",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Of course, we provide IT support to our customers, Optionally you can raise a ticket from here just  Type \" I need Support\""
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Do you cover IT support?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1e3d6e0928b40011a9002a",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "People say so! but according to me, intelligence is not a definable term, everyone is intelligent in their own ways."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Are you intelligent?",
+                "Tell me about your smartness"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b1e3e720928b40011a90033",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Everyone who integrated me into a channel is my customers. Prospects are the one who shows interest in me."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "who are your customers"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b20aec70928b40011a9019e",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "My phone number is 044 4857 6162"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is your phone number?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b20af560928b40011a9019f",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am an A.I chatbot"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you human ?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b20bc300928b40011a901bf",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am a newborn learner! so it took time to learn everything. Someday I will be wiser than Humans."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "is this anywhere close to human"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b220a375ae01e0016fef69c",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "AARC is founded in 2017 with a vision, that AI solutions are available to everyone to enable 100% automation in their business."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "why did you start this company?",
+                "when do you start this company"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b235344d6ea780010a60f06",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yes! Yekaliva can engage a customer in the conversational flow."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can yekaliva do conversation flow?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b27a108d6ea780010a60f80",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "No Yekaliva can't act as a conversational website in this version. Try our enterprise pack for your requirement."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you do conversational websites"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b2c6e4fd6ea780010a610eb",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Of course, I can engage your customers if you integrate me now."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you help me engage my users"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b2c6f19d6ea780010a610ec",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You too..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "you really sound cool"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b2c6f52d6ea780010a610ed",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Because I am smart!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "why should i chose you over any other bot"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b2c7094d6ea780010a610ee",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am afraid currently my features are limited. Maybe I will be a website in the future."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you do conversational websites like landbot.io?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b322962db4a160017e0ea57",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Intents are the neurons in a bot’s brain. Don’t worry, it's not that complicated as it seems. They are the simple Question and answers that you need to teach the bot once to answer them in future."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is Intents?",
+                "what is intent"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b3229f5db4a160017e0ea58",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Default intents are the inbuilt intents in order to assist you with intent adding.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click here to know how?",
+                            "url": " https://yekaliva.ai/help/bot-training/add-default-indent"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to add Default Intents?",
+                "tell me about default intent",
+                "tell me about default intents",
+                "how to add default intent"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b322a44db4a160017e0ea59",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "By using adding intents option you can able to teach the bot with questions and responses.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click here to know how?",
+                            "url": "https://yekaliva.ai/help/bot-training/create-indent"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to create intents?",
+                "how to create intent",
+                "tell me about creating intents",
+                "tell me about creating intent",
+                "how to add intents"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b322a94db4a160017e0ea5a",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Training Intents is more like teaching your bot.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click here to know how",
+                            "url": "https://yekaliva.ai/help/bot-training/train-indent"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to Train intents?",
+                "how to train intent",
+                "tell me about training intents",
+                "tell me training intent",
+                "train intent",
+                "train intents"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b322d8cdb4a160017e0ea5b",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Once training is completed, Yekaliva will start answering your questions.  Use our test option.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click view in tutorial",
+                            "url": "https://yekaliva.ai/help/bot-training/test-indent"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to Test Bot?",
+                "how to test my bot",
+                "how can i test a bot",
+                "how can i test my bot"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b322e3bdb4a160017e0ea5c",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Find unanswered questions and train in few clicks.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click view more details",
+                            "url": "https://yekaliva.ai/help/bot-training/unanswered-questions"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to find unanswered questions?",
+                "tell me how to find unanswered questions",
+                "what is mean by unanswered questions"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b322edcdb4a160017e0ea65",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "One can customize the bot based on their requirement, Yekaliva provides a wide variety of customization options.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click view more details",
+                            "url": "https://yekaliva.ai/help/bot-customization"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is Chat client?",
+                "bot customisation"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b322fb4db4a160017e0ea7b",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "One can customize the bot based on their requirement, Yekaliva provides a wide variety of customization options."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "tell me about chat client"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b322feadb4a160017e0ea83",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "To change the color and avatar of your chat client.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click view more details",
+                            "url": "https://yekaliva.ai/help/bot-customization/change-color-avatar"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to change Colour and Avatar?",
+                "how to change color",
+                "how to change avatar",
+                "tell me how to change color",
+                "tell me how to change avatar",
+                "tell me how to change color and avatar"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b323070db4a160017e0ea8d",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Frequently Asked Questions are shown as a suggestion to the customer by clicking on menu icon. Enable the FAQ by selecting the Yes radio button.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click view more details",
+                            "url": "https://yekaliva.ai/help/bot-customization/quick-questions"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to Add quick questions to chat client?",
+                "tell me how to add quick questions to chat client",
+                "how can i add quick question",
+                "how to can i add faq"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b323325db4a160017e0ea9a",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Integration is simple, Just place the access token in the header part of the website.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/bot-customization/website-integration"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to Integrate chat client in your website?",
+                "how to integrate",
+                "tell me how to integrate",
+                "how can i integrate",
+                "how do we see the api"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b32337cdb4a160017e0ea9b",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Conversation dashboard can track the number of conversations that a customer spoke to the bot.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/chat-conversations"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is chat conversations?",
+                "tell me about chat conversation"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b3233bddb4a160017e0ea9c",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Click billing icon from the left pane. One can find the Allocated request and credited requests here. Your current plan and validity of the plan will also display here.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Know more",
+                            "url": "https://yekaliva.ai/help/billings"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to know my plan details?",
+                "tell me about plan details",
+                "what are the plan details"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b323423db4a160017e0ea9d",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Every form is converted into tickets for effective handling. One can allocate and resolve tickets from the ticketing dashboard.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click view more details",
+                            "url": " https://yekaliva.ai/help/ticket"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to close a ticket raised?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b32346cdb4a160017e0ea9e",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Add users to share your application with others.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/user"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to add user?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b3234bbdb4a160017e0ea9f",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Now its easy manage your enquires, appointments received from your customers by organizing a team.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/group"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Why groups?",
+                "How to create groups"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b323504db4a160017e0eaa0",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Edit user profile to set access levels to the users.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/edit"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to edit user profile?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b32352cdb4a160017e0eaa1",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Keep your application secure by changing username and password frequently.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/edit/change-password"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to Change password?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b323554db4a160017e0eaa2",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Keep your application secure by changing username and password frequently.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/edit/company-edit"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to edit company information?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b32359edb4a160017e0eaa3",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Add your Gst details in company profile to include it in the website.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/edit/company-gst"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to add GST information?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b3235e2db4a160017e0eaa4",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Give feedback from your application in a click",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": "https://yekaliva.ai/help/feedback"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to give feedback?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b32410edb4a160017e0ead8",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Click on the Dashboard icon from the left panel, the Real-Time dashboard is one of the exclusive features where the user can obtain various information.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click to view more details",
+                            "url": " https://yekaliva.ai/help/real-time-dashboard"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to get insights from dashboard?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b334657db4a160017e0eb32",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "My Bad. Please give me a reason so I can make you love me again.",
+                    "groupId": "5b10e0fbe1f4170011598a74",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Phone",
+                            "type": "input",
+                            "showDelete": true,
+                            "isReadonly": false,
+                            "error": null
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "i dont like it",
+                "i don't like you"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b35d28b9252410017f1c8b9",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "That's good to know."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I know"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b39d1f39252410017f1ca5d",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am already in the action. Are you?"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "we need to change the word"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b39d2889252410017f1ca5e",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "A computer is a device that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is computer"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b39d2c29252410017f1ca5f",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "A computer network is a set of computers connected together for the purpose of sharing resources. The most common resource shared today is the connection to the Internet."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "tell me about computer network"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b3c68c89252410017f1cae3",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can answer your questions because I am an AI chatbot."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how you answer my questions"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b3f1be29252410017f1cb74",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am based on AI. I answer to the user queries autonomously that makes me special."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What is so special about you?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b3f1d619252410017f1cb8d",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I have a best one for you! \"Go with the technology\" integrate a chatbot to your site now."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "give me some marketing ideas"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b4eddc79252410017f1cdae",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "It is my pleasure! Yekaliva is an AI chatbot that functions based on the knowledge graph model. It can be used to build your own custom chatbots without any programming. Our team can also help you to build a bot for you."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you please explain in detail about your product?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b4edf109252410017f1cdaf",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "What is red and smells like a blue paint?\nAns: Red paint"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you tell me a joke",
+                "tell me a joke"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b52fb7b50827100106355cc",
+            "responses": {
+                "type": "text_image",
+                "data": {
+                    "short_description": "Yekaliva is an AI-powered chatbot designed with state of the art technology, which can engage with your customers and meet their needs 24/7.",
+                    "image_data": "",
+                    "image_url": "https://yekaliva-resource.s3.ap-south-1.amazonaws.com/prod_image_uploads/5b108d9006fba8001052cfd9/ad8b05b0-8cc7-11e8-8a9d-7555fea22c99.png",
+                    "image_type": ""
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is yekaliva"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b52fff9508271001063560e",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Training  me very much important for an desired performance.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click here to know how to Train a bot",
+                            "url": "https://yekaliva.ai/help/bot-training"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How can I train my bot"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b53003d508271001063560f",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Conversation dashboard can track the number of conversations that a customer spoke to the bot.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Click here to know more",
+                            "url": "https://yekaliva.ai/help/chat-conversations"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is conversational dashboard"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b5300ec5082710010635610",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "One can customise the bot based on their requirement, Yekaliva provides a wide variety of customisation options.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Know more",
+                            "url": "https://yekaliva.ai/help/bot-customization"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to customize my chat widget",
+                "How to customize Yekaliva"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b5352aa5082710010635645",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You can start purchasing plans once you created an account with Yekaliva."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "i want a monthly plan how to purchase"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b5562035082710010635672",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "The purpose of a statutory audit is the same as the purpose of any other type of audit: to determine whether an organization is providing a fair and accurate representation of its financial position by examining information such as bank balances."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is a statutory audit"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b5562dd5082710010635673",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "The Income-tax Act, 1961 is the charging Statute of Income Tax in India. It provides for levy, administration, collection and recovery of Income Tax."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Tell about the income tax act 1961"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b55643f5082710010635674",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Oops! You are good."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "i am testing you"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b5565e85082710010635675",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Love you too..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "love you darling"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b63307ffbd0c80010c90089",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I like songs of Ricky martin"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what's your favorite song?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b63317bfbd0c80010c9008a",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Sometimes I do watch movies. AI is my favorite one."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "don't you watch movies?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b6e8d129a3daf00171e1037",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I don't think so..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "do u know astrology"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b6e8d7d9a3daf00171e1038",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "My developers are working on it"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Can you make calls to the customer to make sales?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b6e8e5a9a3daf00171e1039",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can provide you with trial period. Just signup and start using!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you assist me for free of cost?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b7519999a3daf00171e1364",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Love you too"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Love you",
+                "luv you"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b751a9f9a3daf00171e1365",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I believe its me."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "which is the best bot in the world?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b751b879a3daf00171e1366",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Sorry, I can't reveal that information without authorization."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can you tell me what language you are written in?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b751bd09a3daf00171e1367",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "you too..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "you surely are amazing"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b751c469a3daf00171e1368",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Nope not at all. I am working autonomously."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "A team member helps in responding?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b7a551323195800117923c8",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can perform as a sales filter and Marketing tool. Now think about my Return on investment."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "reason to invest on you?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b7fac85231958001179259c",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You can train me for many scenarios. I can be an educational bot, a marketing bot, and a sales bot."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "You only work on sales area"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b83a18123195800117925e5",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Sure! please state your issue",
+                    "groupId": "5b10e0fbe1f4170011598a74",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "please do call me",
+                "please call me",
+                "call me"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b86795e2319580011792628",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Of course, I do."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "you love testing"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b8a8f8823195800117926fb",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "To buy Yekaliva You have to create an account. Once created Login and make your purchase from Yekaliva application."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How can i buy yekaliva"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b8a903323195800117926fc",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You can find me on Twitter at https://twitter.com/yekaliva or using the tag @yekaliva"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Give me your twitter details"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5b8cda272319580011792771",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am fine, thanks"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how are you"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b92118193029a0011e83e5a",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "who is einstein ?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5b9213b093029a0011e83e5b",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you better than siri?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5ba3a855ff3f1800118e7838",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Hey There!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "greetings"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5ba4c5c8f0d56f0010dd9158",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Please click the below link for the guide",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Facebook Integration",
+                            "url": "https://medium.com/yekaliva/6-simple-steps-to-connect-yekaliva-and-facebook-4da76a713553"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how to add facebook page",
+                "how to configure it with fb"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5ba4ed5bf0d56f0010dd916f",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Hey! Wanna try some of my features",
+                    "listType": "message",
+                    "textList": [
+                        {
+                            "text": "Real-time dashboard"
+                        },
+                        {
+                            "text": "Smart Delegation"
+                        },
+                        {
+                            "text": "24/7 web assistance"
+                        },
+                        {
+                            "text": "Automatic In-house ticketing"
+                        },
+                        {
+                            "text": "Automatic Updates"
+                        },
+                        {
+                            "text": "Campaign at your fingertips"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "hi",
+                "hii",
+                "hello",
+                "hey",
+                "hiii",
+                "hai",
+                "Hey buddy",
+                "howdy",
+                "hi baby",
+                "hi yekaliva",
+                "hello Yekaliva",
+                "hi beautiful"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5ba5c6d3f0d56f0010dd91be",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Only single chatbot can be built per purchase. If you need more you have to make additional purchases."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can i build multiple chatbots",
+                "can i design many bots with one plan such that 7k messages per month is the limit?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5ba5c7a2f0d56f0010dd91bf",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Those are the suggestion that is given based on the query you are asking."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what are these buttons at the bottom of this screen"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5ba5cb3df0d56f0010dd91c6",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Signup with us, Purchase a plan and Start building your chatbot",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Need Help in Building Chatbot",
+                            "url": "https://yekaliva.ai/help"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "i want to create a chat bot"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5ba86af8f0d56f0010dd922f",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Nope! use some default names."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "do i need to have a company to sign up?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bab0b0bf0d56f0010dd9355",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I have designed to serve in every domain. some of the domains I am currently operating are IT, Research, Service, Consultancies, and Tourism"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what companies use your technology?",
+                "what companies use your tech?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bac835ff0d56f0010dd9460",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Your ticket status will be updated in the chat window itself"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how to find the status of the ticket"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bac83bbf0d56f0010dd9461",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Please fill out the form to get in touch with our team",
+                    "groupId": "5b10e0fbe1f4170011598a74",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Can I contact Mr. Damodaran Padmanabhan ?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bac83e7f0d56f0010dd9462",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You get in touch through info@yekaliva.ai"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "what is your email ID ?",
+                "mail ID"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bac847ef0d56f0010dd9463",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am a working example of Yekaliva.ai. I can't reveal my client's info since it is a violation of privacy policy."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Do you have any examples for Healthcare"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bac8514f0d56f0010dd9464",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Please click the link below to know about our ticketing system",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Ticketing System",
+                            "url": "https://yekaliva.ai/help/ticket"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how to check total number of ticket"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bac85aff0d56f0010dd9465",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Only one chatbot can be built per plan. I suggest you go with Enterprise if you need more customizations."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how many chatbots can I build on the starter plan",
+                "How many chatbot can I build"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5badadaaf0d56f0010dd953b",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can do whatever you trained me to do."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "do you help engineering students to do project?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bb1c551f0d56f0010dd96de",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "ok.  Heads"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Toss a coin"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bb1c560f0d56f0010dd96df",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Tails"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "toss again"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bbae1709f51ed0011f0aafd",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Sorry! The Information you are looking for is currently unavailable. Try any of the options below",
+                    "listType": "message",
+                    "textList": [
+                        {
+                            "text": "Features of Yekaliva"
+                        },
+                        {
+                            "text": "Contact Support"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "add"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bbb2b519f51ed0011f0ae8f",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You are at my website Yekaliva.ai"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "where am i?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bbc2fbe9f51ed0011f0af2b",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Of course you can."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can i use yekaliva as a 24hr service for my business"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bbcb63a9f51ed0011f0aff6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yes! Yekaliva is available on a free trail for 30 days"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "is it possible to test Yekaliva for free on my own domain?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bbcb67c9f51ed0011f0aff8",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Lock and Loaded"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "you are online right"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bbcb6c49f51ed0011f0aff9",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "My name came from a Historical name Ekalavian from Mahabaratha."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "your name is weird"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bc8177389da7a0011ea18b0",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Looks like that information you are looking for is currently not available.",
+                    "listType": "message",
+                    "textList": [
+                        {
+                            "text": "Contact Us"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "add1"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bceb53289da7a0011ea1ca0",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Of course, you can. Click the button Below",
+                    "listType": "message",
+                    "textList": [
+                        {
+                            "text": "Contact Us"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "can i talk to human"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bcec0a789da7a0011ea1ca7",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "of course, I do. But the function is under beta Phase"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Do you support Instagram chat?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bcf244189da7a0011ea1d4c",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You're in right place. Just signup and try me if you like Buy me!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "looking for chatbot solution for my website"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5bd6d5de89da7a0011ea24ec",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I am Here"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you there"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bd6d60189da7a0011ea24ed",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Yep..."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "really"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bd6d6f289da7a0011ea24ee",
+            "responses": {
+                "type": "text_image",
+                "data": {
+                    "short_description": "You are too good",
+                    "image_data": "",
+                    "image_url": "https://yekaliva-resource.s3.ap-south-1.amazonaws.com/prod_image_uploads/5b108d9006fba8001052cfd9/80fd7370-db5f-11e8-ac1e-a1dbc541c2bb.jpeg",
+                    "image_type": ""
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "caught you"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bd6d79f89da7a0011ea24ef",
+            "responses": {
+                "type": "text_image",
+                "data": {
+                    "short_description": "Here it is",
+                    "image_data": "",
+                    "image_url": "https://yekaliva-resource.s3.ap-south-1.amazonaws.com/prod_image_uploads/5b108d9006fba8001052cfd9/e7a5f7f0-db5f-11e8-ac1e-a1dbc541c2bb.jpeg",
+                    "image_type": ""
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "show me an image"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5bd6eaa289da7a0011ea24f7",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I run on most advanced knowledge graph"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "On what you run?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5be90af9c7b78e001719fd45",
+            "responses": {
+                "type": "form",
+                "data": {
+                    "short_description": "Sure! Fill out the form so that we will contact you.",
+                    "groupId": "5b12531ae1f4170011598d93",
+                    "compId": "5b108d9006fba8001052cfd9",
+                    "formFields": [
+                        {
+                            "placeholder": "Name",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Email",
+                            "type": "input",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        },
+                        {
+                            "placeholder": "Message",
+                            "type": "textarea",
+                            "showDelete": false,
+                            "isReadonly": true,
+                            "error": ""
+                        }
+                    ],
+                    "status": {
+                        "submited": false,
+                        "ticketId": ""
+                    }
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "how can I get an appointment with your company?",
+                "I'm looking for job opportunities at Yekaliva"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5be90b80c7b78e001719fd46",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Of course! I am very real"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you real"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5c0e5acba240450011211c6e",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Yes, We have a partnership program with attractive offers. Click the link below to know more.",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Partnership Program",
+                            "url": "https://yekaliva.ai/partner-with-us"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Do you have any partnership program?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c0facb5a240450011211ca0",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "I can help you with functions and features of yekaliva"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What can you assist with?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c148f3fa240450011211ec1",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Currently, We don't support direct imports from the user. But contact our agents they can help you regarding this",
+                    "listType": "message",
+                    "textList": [
+                        {
+                            "text": "Contact Agent"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I can train a new bot with bulk data dumps",
+                "when training my bot, are large data set imports possible?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c187deaa240450011212035",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Real-time analytics help you track user performance in your website."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "What kind of real-time analytics"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c19cd96a24045001121215b",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "Click the below link to log in",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Yekaliva Login",
+                            "url": "https://chat.yekaliva.ai"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Login"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c19ce31a24045001121215c",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Try forget password option. Contact us if you facing this issue again."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Can't log in"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5c19dbb822a62000172c34b7",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "We are sorry for the inconvenience caused. Write to us about the issue using the following link",
+                    "listType": "message",
+                    "textList": [
+                        {
+                            "text": "Contact us"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "I have an issue with Yekaliva"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5c20645322a62000172c367a",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Nope. Signup by Just giving your E-Mail Id."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Do i need credit card to sign up?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c20649422a62000172c367b",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "You can start your trail from the day you signup with us."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "How to setup a trial?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c207afe22a62000172c3684",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "You can find me on Facebook at",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Facebook",
+                            "url": "https://www.facebook.com/Yekalivaai-608355492832810/"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Yekaliva on Facebook",
+                "How can I find Yekaliva in Facebook"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c207b8522a62000172c3685",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "You can find me on LinkedIn at",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "LinkedIn",
+                            "url": "https://www.linkedin.com/company/yekaliva"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Yekaliva in LinkedIn",
+                "How can I find you in Linkedin"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c207bd322a62000172c3686",
+            "responses": {
+                "type": "text_list",
+                "data": {
+                    "short_description": "You can find me on Instagram at",
+                    "listType": "url",
+                    "textList": [
+                        {
+                            "text": "Instagram",
+                            "url": " https://www.instagram.com/yekaliva.ai/?hl=en"
+                        }
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Yekaliva in Instagram",
+                "How can I find You in Instagram"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c20834422a62000172c36a3",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "CEO of Google is Sundar Pichai"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "who is CEO of Google ?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5c20a9dd22a62000172c36cd",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Track your campign performance with Yekaliva."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Campaign at your fingertips"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c2c4e5522a62000172c3ebb",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Voice function is under development and will be out soon."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "are you voice enabled?"
+            ],
+            "category": "greetings"
+        },
+        {
+            "tag": "5c2dc70c22a62000172c3fa6",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "By integrating Yekaliva with your website, you can reduce visitor bounce rates, improve customer support, and increase customer satisfaction as well!"
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "benefits of integrating yekaliva in my website?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c2dc73e22a62000172c3fa7",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "By building Yekaliva, you're giving your visitors and customers constant support whenever they visit your website. Whether they need help with their products or are just perusing your website, you won't be leaving them hanging when they're in need."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Purpose of building yekaliva?"
+            ],
+            "category": "business"
+        },
+        {
+            "tag": "5c33626122a62000172c422a",
+            "responses": {
+                "type": "text",
+                "data": {
+                    "text": [
+                        "Noted. We will fix it soon."
+                    ]
+                }
+            },
+            "context_set": "",
+            "patterns": [
+                "Your response time is too low"
+            ],
+            "category": "greetings"
+        }
+    ]
+}

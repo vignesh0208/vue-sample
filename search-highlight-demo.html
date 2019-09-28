@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search Bar</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <style>
+        #app {
+            font-family: 'Avenir', Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 60px;
+        }
+        .highlightText {
+            color: yellow;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <search-bar></search-bar>
+        </div>
+
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
+        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+        <script src="https://unpkg.com/vuex@3.1.0/dist/vuex.js"></script>
+        <script>
+        Vue.component('search-bar', {
+            name: 'app',
+            data() {
+                return {
+                    search: "",
+                    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim leo massa, sed aliquet leo posuere ut. Curabitur malesuada accumsan erat, id varius eros tincidunt quis. Vivamus lobortis, odio at fermentum efficitur, risus est tincidunt nisl, eget condimentum tellus dui vitae nibh. Donec id lorem condimentum, porttitor augue in, fermentum leo. Morbi condimentum, nunc ut malesuada placerat, sem nulla condimentum purus, iaculis tristique metus diam lobortis enim. Suspendisse potenti. Quisque urna magna, porta eget erat ac, pharetra vehicula erat. Suspendisse sed nisi ex."
+                }
+            },
+            methods: {
+                highlight() {
+                    if(!this.search) {
+                        return this.content;
+                    }
+                    return this.content.replace(new RegExp(this.search, "gi"), match => {
+                        return '<span class="highlightText">' + match + '</span>';
+                    });
+                }
+            },
+            template:`
+                <section>
+                    <div>
+                        Search: <input type="text" v-model="search" placeholder="Search">
+                    </div>
+                    <div v-html="highlight()"></div>
+                </section>
+            `
+        })
+        new Vue({ el: '#app' })
+        </script>
+  </body>
+</html>

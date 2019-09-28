@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile - API page</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <section class="api-login-sidebar">
+        <div class="sidenav">
+            <a href="#"><img src="https://yekaliva.ai/static/favicon//favicon-32x32.png" class="img-responsive"></a>
+            <a href="#"><p><i class="fas fa-history"></i></p></a>
+            <a href="#" style="margin-top:-32px"><p><i class="fas fa-pencil-alt"></i></p></a>
+        </div>
+    </section>
+    <section class="api-profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="image/download.svg" alt="" class="img-thumbnail">
+                        </div>
+                        <div class="col-9">
+                            <h1>Vignesh</h1>
+                            <p>- Designer</p>
+                            <p><a href="mailto:vignesh@positivenaick.com">vignesh@positivenaick.com</a></p>
+                            <p><i class="fas fa-mobile-alt"></i> 978251672</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <div class="card">
+                        <div class="card-header">
+                            <b>Basic Info</b> 
+                            <span style="float:right">
+                                <button type="button" @click="onRemoveAll()" class="btn btn-primary" v-bind:class="{RemoveAll: RemoveAll}">Edit</button>
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>First Name</b>:</div>
+                                        <div class="col-8">Vignesh Waran</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Last Name</b>:</div>
+                                        <div class="col-8">Rajendran</div>
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="row row-top">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>D.O.B</b>:</div>
+                                        <div class="col-8">02-08-1994</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Blood Group</b>:</div>
+                                        <div class="col-8">B+</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-top">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Employee Id</b>:</div>
+                                        <div class="col-8">IDPNA17</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Mail Id</b>:</div>
+                                        <div class="col-8"><a href="mailto:vignesh@gmail.com">vignesh@gmail.com</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <b>Work</b> 
+                            <span style="float:right">
+                                <button type="button" @click="onRemoveAll()" class="btn btn-primary" v-bind:class="{RemoveAll: RemoveAll}">Edit</button>
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Department</b>:</div>
+                                        <div class="col-8">Designer</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Date of Hire</b>:</div>
+                                        <div class="col-8">2016-12-15</div>
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="row row-top">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Reporting To</b>:</div>
+                                        <div class="col-8">-</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Employee Type</b>:</div>
+                                        <div class="col-8">Full Time</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <b>Personal Details</b> 
+                            <span style="float:right">
+                                <button type="button" @click="onRemoveAll()" class="btn btn-primary" v-bind:class="{RemoveAll: RemoveAll}">Edit</button>
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Address 1</b>:</div>
+                                        <div class="col-8">MGR Road</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Address 2</b>:</div>
+                                        <div class="col-8">-</div>
+                                    </div>   
+                                </div>
+                            </div>
+                            <div class="row row-top">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>City</b>:</div>
+                                        <div class="col-8">Chennai</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Country</b>:</div>
+                                        <div class="col-8">Full Time</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-top">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>State</b>:</div>
+                                        <div class="col-8">Tamil Nadu</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Postal Code</b>:</div>
+                                        <div class="col-8">600028</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-top">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Gender</b>:</div>
+                                        <div class="col-8">Male</div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-4"><b>Marital Status</b>:</div>
+                                        <div class="col-8">Single</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <b>Work Experience</b> 
+                            <span style="float:right">
+                                <button type="button" @click="onRemoveAll()" class="btn btn-primary" v-bind:class="{RemoveAll: RemoveAll}">Edit</button>
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive-xl">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Previous Company</th>
+                                            <th scope="col">Job Title</th>
+                                            <th scope="col">From</th>
+                                            <th scope="col">To</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">ABC FLY</th>
+                                            <td>Designer</td>
+                                            <td>2017-07-17</td>
+                                            <td>2018-12-31</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button type="button" @click="onRemoveAll()" class="btn btn-primary" v-bind:class="{RemoveAll: RemoveAll}"><i class="fas fa-plus"></i> Add Experience</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <b>Education</b> 
+                            <span style="float:right">
+                                <button type="button" @click="onRemoveAll()" class="btn btn-primary" v-bind:class="{RemoveAll: RemoveAll}">Edit</button>
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive-xl">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Previous Company</th>
+                                            <th scope="col">Job Title</th>
+                                            <th scope="col">From</th>
+                                            <th scope="col">To</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">ABC FLY</th>
+                                            <td>Designer</td>
+                                            <td>2017-07-17</td>
+                                            <td>2018-12-31</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <button type="button" @click="onRemoveAll()" class="btn btn-primary" v-bind:class="{RemoveAll: RemoveAll}"><i class="fas fa-plus"></i> Add Education</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</body>
+</html>

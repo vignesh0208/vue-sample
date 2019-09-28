@@ -1,0 +1,386 @@
+
+  img.imagecustom {
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+.roClass{
+    margin-top: 10px;
+    border-bottom: 1px
+}
+
+.col-sm-9{
+
+border-bottom: 1px solid lightgrey;
+}
+
+
+.row.tabmenu {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  background: rgb(0, 98, 83);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+}
+
+p.bottom_phone_icon {
+  position: sticky;
+  z-index: 1;
+  bottom: 70px;
+}
+
+p.bottom_phone_icon2 {
+  position: sticky;
+  z-index: 1;
+  bottom: 110px;
+  padding-right: 10px;
+}
+
+a.tab.menu {
+  color: #58958B;
+}
+
+.col-sm-9.textalign p {
+  margin: 4px 6px 4px 0px;
+}
+
+a.tab.menu.router-link-active {
+  color: #ffffff;
+}
+
+.col-sm-4.activation a.tab.menu.router-link-active {
+  border-bottom: 3px solid red;
+  padding-bottom: 11px;
+}
+
+.col-sm-4.activation1 a.tab.menu.router-link-active {
+  border-bottom: 3px solid red;
+  padding-bottom: 11px;
+}
+
+.col-sm-4.activation2 a.tab.menu.router-link-active {
+  border-bottom: 3px solid red;
+  padding-bottom: 11px;
+}
+
+.col-sm-9 {
+  padding-bottom: 10px;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+p.bottom_phone_icon1 {
+  padding-top: 40px;
+  position: sticky;
+  z-index: 1;
+  bottom: 60px;
+  padding-right: 6px;
+  
+}
+
+.row.mar {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+
+i.fas.fa-location-arrow {
+  background: green;
+  border-radius: 50%;
+  padding: 18px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+
+input.form-control {
+  padding: 18px;
+  float: right;
+  
+}
+.row.mar {
+  position: sticky;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.row.chatheader {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background: rgb(0, 98, 83);
+}
+
+
+.col-sm-2.chat {
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  padding-right: 0px;
+}
+
+i.fa.fa-smile-o {
+  padding: 18px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  float: right;
+}
+.col-sm-4.chat {
+  background-color: rgb(255, 255, 255);
+  padding: 9px;
+}
+
+.col-sm-2.chat1 {
+  background-color: #ffffff;
+}
+
+.col-sm-2.chat2 {
+  background-color: rgb(255, 255, 255);
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+i.fa.fa-paperclip {
+  padding: 18px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  float: right;
+}
+
+
+i.fa.fa-camera {
+  padding: 18px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  float: right;
+}
+
+p.bottom_phone_icon i.fas.fa-comment {
+  float: right;
+  font-size: 26px;
+  background: green;
+  padding: 16px;
+  border-radius: 30px;
+  color: white;
+}
+
+i.fa.fa-arrow-left {
+  padding: 8px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+span.nameschat {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.col-sm-6.chatcol2 i.fa.fa-ellipsis-v {
+  padding: 16px;
+  font-size: 16px;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.col-sm-6.chatcol2 i.fas.fa-phone {
+  padding: 16px;
+  font-size: 16px;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+
+.col-sm-6.chatcol2 i.fa.fa-video-camera {
+  padding: 16px;
+  font-size: 16px;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+
+.row.margo {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.col-sm-12.chatarea {
+  background-color: blue;
+  color: rgb(255, 255, 255);
+}
+
+p.bottom_phone_icon1 i.fa.fa-camera {
+  float: right;
+  font-size: 20px;
+  background: green;
+  padding: 18px;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+}
+
+p.bottom_phone_icon2 i.fas.fa-pen {
+  float: right;
+  font-size: 16px;
+  background: rgb(223, 223, 223);
+  padding: 14px;
+  border-radius: 30px;
+  color: gray;
+}
+
+.col-sm-9.textalign i.fas.fa-phone {
+  float: right;
+  padding-top: 7px;
+  font-size: 16px;
+  color: rgb(0, 98, 83);
+}
+
+p.bottom_phone_icon i.fas.fa-phone {
+  float: right;
+  font-size: 26px;
+  background: green;
+  padding: 16px;
+  border-radius: 30px;
+  color: white;
+}
+
+.col-sm-4.iconspos i.fa.fa-ellipsis-v {
+  padding: 8px;
+  font-size: 16px;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+
+.col-sm-4.iconspos i.fa.fa-search {
+  padding: 8px;
+  font-size: 16px;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+
+.row.header4 {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.col-sm-4.iconspos2 i.fa.fa-ellipsis-v {
+  padding: 19px;
+  font-size: 16px;
+  float: right;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.col-sm-4.iconspos2 i.fa.fa-search {
+  padding: 19px;
+  font-size: 16px;
+  float: right;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.col-sm-9.textalign1 i.fa.fa-video-camera {
+  float: right;
+  padding-top: 18px;
+  font-size: 16px;
+  color: rgb(0, 98, 83);
+  padding-right: 10px;
+}
+
+.col-sm-9.textalign1 i.fas.fa-phone {
+  float: right;
+  padding-top: 7px;
+  font-size: 16px;
+  color: rgb(0, 98, 83);
+  padding-right: 26px;
+}
+
+
+.col-sm-6.chatcol2 i.fas.fa-comment {
+  padding: 16px;
+  font-size: 16px;
+  float: right;
+  color: rgb(255, 255, 255);
+}
+
+.col-sm-6.chatcol3 i.fa.fa-video-camera {
+  padding: 18px;
+  font-size: 16px;
+  float: right;
+  color: green;
+}
+
+.col-sm-6.chatcol3 i.fas.fa-phone {
+  padding: 10px;
+  font-size: 16px;
+  float: right;
+  color: green;
+}
+
+p.countingcontacts {
+  color: #ffffff;
+  position: relative;
+  left: 37px;
+  font-size: 12px;
+  
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
