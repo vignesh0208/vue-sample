@@ -1,0 +1,42 @@
+[
+	{
+		"date": "2",
+		"holiday": "Public holiday",
+		"comments": "Voting in GHMC elections"
+	},
+	{
+		"date": "9",
+		"holiday": "Losar",
+		"comments": "Sikkim only. Tibetan New Year"
+	},
+	{
+		"date": "9",
+		"holiday": "Sonam Lhochar",
+		"comments": "Sikkim only. Tamang New Year"
+	},
+	{
+		"date": "12",
+		"holiday": "Vasant Panchami",
+		"comments": "Haryana, Odisha, Punjab, Tripura"
+	},
+	{
+		"date": "12",
+		"holiday": "Sir Chhotu Ram Jayanti",
+		"comments": "Haryana only"
+	},
+	{
+		"date": "13",
+		"holiday": "Sree Panchami",
+		"comments": "West Bengal"
+	},
+	{
+		"date": "19",
+		"holiday": "Chhatrapati Shivaji Maharaj Jayanti",
+		"comments": "Maharashtra only"
+	},
+	{
+		"date": "22",
+		"holiday": "Guru Ravidas Birthday",
+		"comments": "Haryana, Himachal Pradesh, Punjab only"
+    }
+]

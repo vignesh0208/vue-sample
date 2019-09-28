@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <title>Document</title>
+        <link rel="stylesheet" href="drag-drop.css">
+    </head>
+    <body>
+        <div id="app" class="container">
+            <div class="row">
+                <div class="col-8 area" id="inn" v-on:dragover="allowDrop(event)" v-on:drop="drop(event)">
+                    <div id="border-dotted" class="border-dotted">
+                        <h2 id="viewPoint" class="view-point">Drag and Drop</h2>
+                        <draggable id="pikachu">
+                            
+                        </draggable>
+                    </div>
+                </div>
+                <div class="col-4 dragable-area">
+                    <div id="1" v-on:dragstart="dragStart(event)" draggable="true">Input Box</div>
+                    <div id="2" v-on:dragstart="dragStart(event)" draggable="true">Upload File</div>
+                    <div id="3" v-on:dragstart="dragStart(event)" draggable="true">Button</div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.8.4/Sortable.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/2.20.0/vuedraggable.umd.min.js"></script>
+    </body>
+    <script>
+        new Vue({
+            el:"#app",
+            data() {
+                return {
+                    lists:[]
+                }
+            },
+            methods: {
+                dragStart(event) {
+                    event.dataTransfer.setData("Text", event.target.id);
+                },
+                drop(event) {
+                    event.preventDefault();
+                    var data = event.dataTransfer.getData("Text")
+                    var z = document.getElementById("viewPoint")
+                    if(data == 1){
+                        document.getElementById("pikachu").innerHTML += "<div class='form-button'>Textfield: <input id='textinput' class='inputfield' type='text' placeholder='Text something' required></div>"
+                        z.style.visibility = "hidden"
+                    }
+                    else if(data == 2){
+                        document.getElementById("pikachu").innerHTML += "<div class='form-button'><input class='inputfield' type='file' required></div>"
+                        z.style.visibility = "hidden"
+                    }
+                    else if(data == 3){
+                        document.getElementById("pikachu").innerHTML += "<div class='form-button'><button type='submit'>Button</button></div>"
+                        z.style.visibility = "hidden"
+                    }
+                },
+                allowDrop(event) {
+                    event.preventDefault();
+                },
+                check(){
+                    x = document.getElementById("textinput").value
+                    if(x.length <=0 || x == null){
+                        alert("pop")
+                    }
+                }
+            },
+        })
+    </script>
+</html>

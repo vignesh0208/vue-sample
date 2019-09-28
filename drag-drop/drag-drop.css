@@ -1,0 +1,60 @@
+.area{
+    border: 1px solid #e6e6e6;
+    height: 600px;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+.container {
+    margin-top: 16px;
+}
+.outerBox{
+    border: 1px solid black;
+    height: 600px;
+    width: 300px;
+}
+.inputfield{
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+.errorMessage{
+    visibility: visible;
+}
+.dragable-area {
+    display: flex;
+    flex-direction: column;
+}
+.dragable-area div {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.dragable-area div:hover {
+    background: #e6e6e6;
+}
+.border-dotted {
+    border: 2px dotted #b7b5b5;
+    height: 550px;
+    margin: 25px 10px;
+    border-radius: 10px;
+}
+.view-point {
+    visibility: visible;
+    font-size: 25px;
+    font-weight: 400;
+    color: #b7b5b5;
+    bottom: 50%;
+    left: 40%;
+    position: absolute;
+}
+.form-button {
+    padding: 10px;
+}
+.form-button button {
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: 4px 16px;
+    background: #e6e6e6;
+}

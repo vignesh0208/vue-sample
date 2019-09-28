@@ -1,0 +1,14 @@
+[
+    {
+        "id": "ef7c202664aae320f7bb2fac682d91e3c47cee8b2591ba114f56178a5bd93966",
+        "name": "awesome_neumann",
+        "short_id": "ef7c202664",
+        "status": "running"
+    },
+    {
+        "id": "538b5879ee2ad075ba4fd443e6186dc428e4a3a2112acf24f1239f127fa73d1d",
+        "name": "somer-mongo",
+        "short_id": "538b5879ee",
+        "status": "running"
+    }
+]

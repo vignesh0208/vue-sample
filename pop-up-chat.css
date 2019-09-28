@@ -1,0 +1,123 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 8px 0px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 0px;
+  right: 28px;
+  width: 280px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  background-color: white;
+  max-width: 300px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 28px;
+  border: 2px solid #f1f1f1;
+  height: 500;
+  width: 285px;
+}
+
+.form-container h5 {
+  background: rgb(36, 32, 255);
+  color: #ffffff;
+  padding: 8px;
+  margin: 0px;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn-send {
+  border: none;
+  background: #ffffff;
+  padding: 0px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.form-container .send-img {
+  width: 100%;
+  margin: -40px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.input-area{
+  height: 250px;
+  overflow: auto;
+  background: #ffffff;
+}
+
+.input-area .input{
+  background: #afafaf;
+  border: 0px solid #afafaf;
+  border-radius: 8px;
+  color: #ffffff;
+  margin:16px 6px 16px 40px;
+  padding: 6px; 
+  left:100%;
+}
+
+.input-area .input::after {
+  content: " ";
+  position: absolute;
+  top: 20%;
+  left: 98%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #afafaf;
+}
+
+.errspan{
+  float: right;
+  padding: 4px;
+  margin: 0px 0px 0px 0px;
+  font-size: 24px;
+  position: relative;
+  z-index: 2;
+  color: #679cc5;
+}
+
+.form-control{
+  border-radius: 0.25rem !important;
+}
+
+.fun {
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  padding: 4px;
+  margin: 0px 5px 5px 0px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .button-view {
+            right: 0;
+            position: absolute;
+            padding: 10px;
+        }
+        .sidenav{
+            padding: 8px;
+            height: 100%;
+            width: 400px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            display:flex;
+            flex-direction:column;
+            background-color: #ffffff;
+            visibility: hidden;
+            transition: 0.1s;
+            box-shadow: 0 1px 5px rgba(0,0,0,.2);
+        }
+        .head{
+            order: 1;
+            padding: 8px;
+        }
+        .head h3{
+            position: absolute;
+            right: 8px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <section id="mySidenav" class="sidenav">
+        <div class="head">
+            <h3><i class="fas fa-times closebtn" onclick="closeNav()"></i></h3>
+        </div>
+        <p>HOME</p>
+        <p>ABOUT US</p>
+    </section>
+    <section id="buttonView" class="button-view">
+        <span style="font-size:30px;" onclick="openNav()"><i class="far fa-paper-plane"></i></span>
+    </section>
+    <script>
+        var x = document.getElementById("mySidenav")
+        function openNav() {
+            x.style.right = "0px";
+            x.style.visibility = "visible"
+            document.body.style.backgroundColor = "#d7d7d7";
+        }
+        function closeNav() {
+            x.style.right = "-400px";
+            x.style.visibility = "hidden"
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+</body>
+</html>

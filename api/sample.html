@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>API Login</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <section class="api-login-sidebar">
+        <div class="sidenav">
+            <a href="#"><img src="https://yekaliva.ai/static/favicon//favicon-32x32.png" class="img-responsive"></a>
+            <a href="#"><p><i class="fas fa-history"></i></p></a>
+            <a href="#" style="margin-top:-32px"><p><i class="fas fa-pencil-alt"></i></p></a>
+        </div>
+    </section>
+    <section class="api-login-sample">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="heading">
+                        <h4>Current Log</h4>
+                        <!--<span class="active-status"></span>-->
+                        
+                    </div>
+                    <div class="card-inner">
+                        <h5>Sample</h5>
+                        <table class="table">
+                            <thead class="thead-light">
+                                <tr>
+                                <th scope="col">API</th>
+                                <th scope="col">Monday</th>
+                                <th scope="col">Tuesday</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="offset-md-1 col-md-10">
+                            <div class="card-inner-sample">
+                                <form class="text-center login-top p-3" action="/admin/login" method="post" id="registrationForm">
+                                    <p class="h4 mb-4">Select</p>
+                                    <div>
+                                        <input type="text" class="form-control mb-4" placeholder="name" />
+                                    </div>
+                                    <div>
+                                        <select class="form-control" name="sellist1">
+                                            <option value="Select One">Select One</option>
+                                            <option value="One">1</option>
+                                            <option value="Two">2</option>
+                                            <option value="Three">3</option>
+                                            <option value="Four">4</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <input class="btn btn-info-update btn-block my-4" type="submit" value="Update"/>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-inner-logs">
+                                <h5>Logs</h5>
+                                <table class="table">
+                                    <thead class="thead-light">
+                                        <tr>
+                                        <th scope="col">Docker Log</th>
+                                        <th scope="col"><span style="float:right">
+                                            <select class="form-control form-control-sm" name="sellist1">
+                                                <option value="One">1</option>
+                                                <option value="Two">2</option>
+                                                <option value="Three">3</option>
+                                            </select>
+                                        </span></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        <th scope="row" colspan="2">Error in docker log</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

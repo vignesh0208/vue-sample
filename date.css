@@ -1,0 +1,33 @@
+ul li{
+    list-style: none;
+}
+.weekdays li{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-group{
+    flex-direction: unset !important;
+}
+.list-group-item{
+    padding: 8px 16px !important;
+}
+.v1{
+    float: left;
+    background: #5ecc67;
+    height: 39px;
+    text-align: center;
+    width: 39px;
+    padding: 8px;
+    margin: 0px 5px 5px 0px;
+}
+.v2{
+    float: left;
+    background: #ffffff;
+    height: 39px;
+    width: 39px;
+    margin: 0px 5px 5px 0px;
+}
+.remove {
+    color: lightgrey !important;
+    pointer-events: none;
+}

@@ -1,0 +1,236 @@
+{
+    "id": "ef7c202664aae320f7bb2fac682d91e3c47cee8b2591ba114f56178a5bd93966",
+    "name": "awesome_neumann",
+    "short_id": "ef7c202664",
+    "stats": {
+        "blkio_stats": {
+            "io_merged_recursive": [],
+            "io_queue_recursive": [],
+            "io_service_bytes_recursive": [
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Read",
+                    "value": 5566464
+                },
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Write",
+                    "value": 8192
+                },
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Sync",
+                    "value": 8192
+                },
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Async",
+                    "value": 5566464
+                },
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Total",
+                    "value": 5574656
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Read",
+                    "value": 1740800
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Write",
+                    "value": 0
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Sync",
+                    "value": 0
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Async",
+                    "value": 1740800
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Total",
+                    "value": 1740800
+                }
+            ],
+            "io_service_time_recursive": [],
+            "io_serviced_recursive": [
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Read",
+                    "value": 114
+                },
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Write",
+                    "value": 2
+                },
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Sync",
+                    "value": 2
+                },
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Async",
+                    "value": 114
+                },
+                {
+                    "major": 8,
+                    "minor": 0,
+                    "op": "Total",
+                    "value": 116
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Read",
+                    "value": 16
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Write",
+                    "value": 0
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Sync",
+                    "value": 0
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Async",
+                    "value": 16
+                },
+                {
+                    "major": 11,
+                    "minor": 2,
+                    "op": "Total",
+                    "value": 16
+                }
+            ],
+            "io_time_recursive": [],
+            "io_wait_time_recursive": [],
+            "sectors_recursive": []
+        },
+        "cpu_stats": {
+            "cpu_usage": {
+                "percpu_usage": [
+                    12682488585,
+                    12680319486
+                ],
+                "total_usage": 25362808071,
+                "usage_in_kernelmode": 8620000000,
+                "usage_in_usermode": 10900000000
+            },
+            "online_cpus": 2,
+            "system_cpu_usage": 38625120000000,
+            "throttling_data": {
+                "periods": 0,
+                "throttled_periods": 0,
+                "throttled_time": 0
+            }
+        },
+        "id": "ef7c202664aae320f7bb2fac682d91e3c47cee8b2591ba114f56178a5bd93966",
+        "memory_stats": {
+            "limit": 2096164864,
+            "max_usage": 361562112,
+            "stats": {
+                "active_anon": 322252800,
+                "active_file": 5537792,
+                "cache": 7471104,
+                "dirty": 8192,
+                "hierarchical_memory_limit": 9223372036854771712,
+                "hierarchical_memsw_limit": 9223372036854771712,
+                "inactive_anon": 24563712,
+                "inactive_file": 1933312,
+                "mapped_file": 3686400,
+                "pgfault": 105647,
+                "pgmajfault": 66,
+                "pgpgin": 107221,
+                "pgpgout": 20725,
+                "rss": 346816512,
+                "rss_huge": 0,
+                "total_active_anon": 322252800,
+                "total_active_file": 5537792,
+                "total_cache": 7471104,
+                "total_dirty": 8192,
+                "total_inactive_anon": 24563712,
+                "total_inactive_file": 1933312,
+                "total_mapped_file": 3686400,
+                "total_pgfault": 105647,
+                "total_pgmajfault": 66,
+                "total_pgpgin": 107221,
+                "total_pgpgout": 20725,
+                "total_rss": 346816512,
+                "total_rss_huge": 0,
+                "total_unevictable": 0,
+                "total_writeback": 0,
+                "unevictable": 0,
+                "writeback": 0
+            },
+            "usage": 356954112
+        },
+        "name": "/awesome_neumann",
+        "networks": {
+            "eth0": {
+                "rx_bytes": 533332,
+                "rx_dropped": 0,
+                "rx_errors": 0,
+                "rx_packets": 442,
+                "tx_bytes": 17777,
+                "tx_dropped": 0,
+                "tx_errors": 0,
+                "tx_packets": 232
+            }
+        },
+        "num_procs": 0,
+        "pids_stats": {
+            "current": 23
+        },
+        "precpu_stats": {
+            "cpu_usage": {
+                "percpu_usage": [
+                    12682488585,
+                    12675123430
+                ],
+                "total_usage": 25357612015,
+                "usage_in_kernelmode": 8620000000,
+                "usage_in_usermode": 10900000000
+            },
+            "online_cpus": 2,
+            "system_cpu_usage": 38622930000000,
+            "throttling_data": {
+                "periods": 0,
+                "throttled_periods": 0,
+                "throttled_time": 0
+            }
+        },
+        "preread": "2019-02-28T12:26:51.2765283Z",
+        "read": "2019-02-28T12:26:52.3503662Z",
+        "storage_stats": {}
+    },
+    "status": "running"
+}

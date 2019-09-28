@@ -1,0 +1,145 @@
+.full-padding {
+    padding: 32px;
+}
+
+.full-padding .row {
+    text-align: center;
+}
+
+.full-padding h2 {
+    font-weight: 600;
+    color: #2999a3;
+    margin: 0px;
+    padding-bottom: 32px;
+}
+
+.full-padding .full-margin {
+    padding: 32px;
+}
+
+.full-padding .full-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 56%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2999a3;
+    margin: auto;
+}
+
+.full-padding .modal-para {
+    padding: 32px 24px 0px;
+    font-weight: 400;
+    color: #182128;
+}
+
+.full-padding .full-btn {
+    margin-top: 32px;
+    background: #2999a3;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 4px;
+}
+
+.full-padding .model-image {
+    height: 333px;
+    width: 100%;
+    margin: 0;
+}
+
+@media screen and (max-width: 1023px) { 
+    .full-padding h2 {
+        font-size: 24px;
+        margin: 0px;
+        padding-bottom: 24px;
+    }
+    
+    .full-padding .full-margin {
+        padding: 0px;
+    }
+    
+    .full-padding .modal-para {
+        padding: 24px 0px 0px;
+        font-size: 16px;
+    }
+    
+    .full-padding .full-btn {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+    
+    .full-padding .model-image {
+        height: 188px;
+    }
+}
+@media screen and (max-width: 425px)  { 
+    .full-padding {
+        padding: 24px;
+    }
+    .full-padding h2 {
+        font-size: 24px;
+        margin: 0px;
+        padding-bottom: 24px;
+    }
+    
+    .full-padding .full-margin {
+        padding: 16px;
+    }
+    
+    .full-padding .modal-para {
+        padding: 24px 0px 0px;
+        font-size: 16px;
+    }
+    
+    .full-padding .full-btn {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+    
+    .full-padding .model-image {
+        height: 188px;
+        width: unset;
+    }
+
+    .full-padding .full-line {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 375px)  {
+    .full-padding {
+        padding: 24px;
+    }
+    .full-padding h2 {
+        font-size: 24px;
+        margin: 0px;
+        padding-bottom: 24px;
+    }
+    
+    .full-padding .full-margin {
+        padding: 16px;
+    }
+    
+    .full-padding .modal-para {
+        padding: 24px 0px 0px;
+        font-size: 16px;
+    }
+    
+    .full-padding .full-btn {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+    
+    .full-padding .model-image {
+        height: 188px;
+        width: unset;
+    }
+
+    .full-padding .full-line {
+        width: 40%;
+    }
+ }

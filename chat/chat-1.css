@@ -1,0 +1,200 @@
+.sidenav {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    display:flex;
+    flex-direction:column;
+    background-color: #ffffff;
+    transition: 0.1s;
+    box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+  
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+  
+.sidenav a:hover {
+    color: #818181;
+}
+  
+.sidenav .closebtn {
+    cursor: pointer;
+}
+
+.sidenav .head {
+    order: 1;
+    padding: 8px;
+    border-bottom: 1px solid #e8e8eb;
+}
+
+.sidenav h3{
+    margin: 0px;
+}
+
+.sidenav span {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.sidenav span i {
+    padding: 8px;
+    color: #505050;
+}
+
+.sidenav h3 .fa-archway {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px;
+    background: #0d5cc7;
+    border-radius: 100%;
+}
+
+.sidenav .fa-user-cog {
+    cursor: pointer;
+}
+
+.sidenav .body {
+    order: 2;
+    overflow-y: scroll;
+    display: flex;
+    height: 100%;
+    flex-flow: column nowrap;
+    flex-direction: column-reverse;
+}
+
+.sidenav .body .chat-area {
+    display: flex;
+    padding: 8px 8px 18px;
+    flex-direction: column;
+}
+
+.sidenav .chat-area .bot-msg {
+    display: flex;
+    padding-right: 32px;
+    margin-left: 32px;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.sidenav .chat-area .msg {
+    letter-spacing: 0.5px;
+    max-width: 256px;
+    min-height: 35px;
+    margin: 1px 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: #e8e8eb;
+    padding: 7px 12px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.sidenav .chat-area .msg p, .sidenav .chat-area .user-msg p {
+    margin-bottom: 0px;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+.sidenav .chat-area h4 {
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 0px; 
+}
+
+.sidenav .chat-area .user-msg {
+    position: relative;
+    text-align: right;
+}
+
+.sidenav .user-msg .msg {
+    letter-spacing: 0.5px;
+    background-color: rgba(0, 83, 207, 0.397);
+    color: white;
+    max-width: 256px;
+    min-height: 35px;
+    margin: 1px 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 7px 12px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.sidenav .chat-area h4 .fa-archway {
+    font-size: 11px;
+    color: #ffffff;
+    padding: 8px;
+    background: #0d5cc7;
+    border-radius: 100%;
+}
+
+.sidenav .footer {
+    order: 3;
+    bottom: 0px;
+    padding: 8px;
+    margin: 0;
+    width: 100%;
+    border-top: 1px solid #e8e8eb;
+    background: #ffffff;
+}
+
+.sidenav .footer .footer-input {
+    box-sizing: border-box;
+    height: 35px;
+    resize: none;
+    width: 88%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    overflow: hidden;
+    outline: none;
+    background-color: #e8e8eb;
+    border: 0;
+    transition: background-color .2s ease;
+    vertical-align: top;
+}
+
+.sidenav .footer .footer-btn {
+    line-height: 32px;
+    border-radius: 100%;
+    transition: opacity .2s ease;
+    position: absolute;
+    border: 0;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    transition: opacity .2s ease;
+    background-color: #fff;
+    color: #969ae3;
+}
+
+.sidenav .footer p {
+    font-size: 12px;
+    color: #6c6c6f;
+    margin: 4px 0px;
+    text-align: center;
+}
+
+.sidenav .footer p a {
+    font-size: 12px;
+    color: #6c6c6f;
+    text-decoration: underline;
+    display: inline;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>camera</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<style>
+    .container {
+  flex: 1;
+}
+.text-color-primary {
+  color: blue;
+}
+</style>
+</head>
+<body>
+    <template>
+        <view class="container">
+          <camera class="container" :type="this.type"/>
+        </view>
+    </template>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+<script src="https://unpkg.com/vuex@3.1.0/dist/vuex.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/moment"></script>
+<script>
+import Camera from 'expo';
+import Permissions from 'exop';
+export default {
+ data: function() {
+   return {
+     hasCameraPermission: false,
+     type: Camera.Constants.Type.back,
+   };
+ },
+ mounted: function() {
+   Permissions.askAsync(Permissions.CAMERA)
+     .then(status => {
+       hasCameraPermission = status.status == "granted" ? true : false;
+     }).catch((err)=>{
+        console.log(err);
+     });
+ },
+ components: { Camera },
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="calendar.css">
+        <title>Calendar</title>
+    </head>
+    <body>
+        <div id="app" class="calendarBody">
+            <calendar-header></calendar-header>
+            <div class="row">
+                <div class="col-lg-3 flex-3">
+                    <calendar-leftnav></calendar-leftnav>
+                </div>
+                <div class="col-lg-9 flex-9 border-left-full">
+                    <div class="calendar-layoutbig">
+                        <calendarbig :day-key='selectedDisplayOption'></calendarbig>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/moment"></script>
+        <script src="calendar.js"></script>
+    </body>
+</html>

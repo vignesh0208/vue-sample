@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>login page</title>
+  </head>
+  <body>
+    <div id="app">
+        <h1>Bitcoin Price Index</h1>
+        <input type="text" placeholder="NAME" v-model="name">
+        <input type="text" placeholder="PASS WORD" v-model="pass">
+        <input type="submit" value="SUBMIT" @click="onSubmit">
+    </div>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vuex@3.1.0/dist/vuex.js"></script>
+    <script>
+    new Vue({
+        el: '#app',
+        data () {
+            return {
+                name: 'fill',
+                pass: 'null'
+            }
+        },
+        methods:{
+            onSubmit: function(){
+                if((this.name == 'fill') && (this.pass == 'null'){
+                    
+                }
+            }
+        }
+    })
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <title>testing</title>
+    </head>
+    <body>
+        <div id="app">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul>
+                            <li v-for="(detail,index) in details"><button type="button" class="btn btn-primary" data-toggle="modal" :data-target="'#exampleModal' + index">{{detail}}
+                                <template v-if="edit.status && edit.index==index">
+                                    {{store.data}}
+                                </template>
+                            </button>
+                                <div class="modal fade" :id="'exampleModal' + index" tabindex="-1" role="dialog" :aria-labelledby="'exampleModalLabel'+index" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                          <div class="modal-content">
+                                            <div class="modal-body">
+                                                <input type="text" v-model="input">
+                                                <button type="button" class="btn btn-secondary">ADD</button>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              <button type="button" class="btn btn-primary" @click="addData(input,index)">Save changes</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            new Vue({
+                el:"#app",
+                data(){
+                    return{
+                        details:["pop", "kid", "rat", "leo"],
+                        store:storage,
+                        input:"",
+                        edit:{
+                            status: false,
+                            index:0,
+                        }
+                    }
+                },
+                methods:{
+                    addData(val, x){
+                        this.store.add(val),
+                        this.edit.status = true,
+                        this.edit.index = x,
+                        this.input = ''
+                    }
+                }
+            })
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="/home/naicks-005/Desktop/api/calendar/testGround.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://unpkg.com/moment"></script>
+    </body>
+</html>

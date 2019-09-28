@@ -1,0 +1,347 @@
+.calender-setting { 
+    background-color: rgba(255,255,255,1);
+    display: block;
+    min-width: 320px;
+    position: relative;
+}
+
+.calender-setting .header {
+    padding: 8px;
+    transition: background-color .4s;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-width: min-content;
+}
+
+.calender-setting .setting {
+    min-width: 248px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    height: 48px;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+}
+
+.calender-setting .go-back {
+    transform: none;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 16px;
+    padding: 0px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    flex: 0 0 auto;
+}
+
+.calender-setting i {
+    color: #5f6368;
+    opacity: 1;
+}
+
+.calender-setting .setting-text {
+    opacity: 1;
+    height: 48px;
+    vertical-align: middle;
+    white-space: nowrap;
+    align-items: center;
+    display: flex;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 48px;
+    overflow: hidden;
+    padding-left: 16px;
+    position: relative;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    top: 2px;
+    white-space: nowrap;
+    flex: 1 1 auto;
+}
+
+.calender-setting .setting-body {
+    border-top: #dadce0 1px solid;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 64px);
+    display: flex;
+    box-sizing: border-box;
+}
+
+.setting-body .sidenav {
+    margin-left: 0px;
+    transform: none;
+    position: relative;
+    display: flex;
+    flex: none;
+    width: 256px;
+    overflow: hidden;
+}
+
+.setting-body .sidenav-bar {
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.setting-body .sidenav-val {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 100%;
+    overflow-y: auto;
+    right: 0;
+    top: 0;
+}
+
+.setting-body .sidenav-map {
+    flex: none;
+    margin-right: 8px;
+    padding: 16px 0 16px 0;
+    width: 240px;
+}
+
+.setting-body .sidenav-function {
+    min-height: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: background-color 100ms linear;
+    cursor: pointer;
+    padding-right: 0;
+    border-radius: 2px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    min-height: 40px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    align-items: center;
+    outline: none;
+}
+
+.setting-body .function-text {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    font-weight: 500;
+    padding-left: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.setting-body .active {
+    color: #1a73e8;
+    flex: 1 1 0%;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 40px;
+    text-align: left;
+}
+
+.setting-body .sidenav-overflow {
+    max-height: 500px;
+    overflow: hidden;
+    transition: max-height 300ms cubic-bezier(0.4,0.0,0.2,1);
+}
+
+.setting-body .overflow {
+    min-height: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: background-color 100ms linear;
+    cursor: pointer;
+    padding-right: 8px;
+    border-radius: 2px;
+    padding-left: 16px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    outline: none;
+}
+
+.setting-body .overflow:first-child::before {
+    margin-top: 10px;
+}
+
+.setting-body .overflow::before {
+    content: "";
+    left: 26px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 2px;
+    background-color: #e8eaed;
+}
+
+.setting-body .overflow-text {
+    border-left: #1a73e8 2px solid;
+    z-index: 0;
+    color: #1a73e8;
+    font-weight: 500;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 0;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    letter-spacing: .2px;
+    line-height: 20px;
+}
+
+.active .arrow {
+    margin: 2px 8px;
+    transition: transform 300ms cubic-bezier(0.4,0.0,0.2,1);
+    font-size: 20px;
+    pointer-events: none;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    display: inline-block;
+    word-wrap: normal;
+    direction: ltr;
+    font-feature-settings: 'liga' 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.setting-body .sidenav-vals {
+    transform-origin: right center;
+    transform: none;
+    flex: 1 1 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidenav-vals .main {
+    flex: 1 1 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidenav-vals .main-vals {
+    bottom: 0;
+    display: flex;
+    left: 0;
+    overflow-y: auto;
+    right: 0;
+    top: 0;
+}
+
+.sidenav-vals .main-vals::before {
+    content: '';
+    flex: 0 1 128px;
+}
+
+.sidenav-vals .main-work {
+    flex: 1 1 auto;
+    padding-bottom: 128px;
+}
+
+.sidenav-vals .work:first-child {
+    margin-top: 16px;
+}
+
+.sidenav-vals .work {
+    outline: none;
+    background-color: white;
+    border-radius: 2px;
+    color: #3c4043;
+    margin: 8px;
+    padding-bottom: 40px;
+    width: 640px;
+}
+
+.sidenav-vals h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 16px;
+    margin: 56px 0 10px 0;
+    color: #70757a;
+}
+
+.sidenav-vals .selection-area {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.sidenav-vals .selection {
+    height: 44px;
+    position: relative;
+    display: block;
+    width: 352px;
+    background-color: #f1f3f4;
+    border-radius: 4px;
+}
+
+.sidenav-vals .label {
+    display: block;
+    color: #616161;
+    font-size: 12px;
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+
+.sidenav-vals .selection-control {
+    margin-top: 18px;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #f1f3f4;
+    line-height: 1.5;
+    color: #222;
+    border: 1px solid #f1f3f4;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.work .select {
+    padding-top: 0 4px 16px 16px;
+}
+
+.work .select-txt {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.work .checkbox-padding {
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #3c4043;
+    font-size: 14px;
+}
+
+.plan-txt label {
+    margin-left: 16px;
+    color: #3c4043;
+    font-size: 12px;
+}

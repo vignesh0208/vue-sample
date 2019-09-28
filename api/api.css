@@ -1,0 +1,176 @@
+.api-login-page {
+    margin: 160px 0px 80px 0px !important;
+  }
+  .api-login-page .login-top {
+    border-top-style: solid;
+    border-top-color: #005388;
+  }
+  .api-login-page .formBox {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  .api-login-page .formBox h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #005388 !important;
+    text-transform: uppercase;
+  }
+  .api-login-page .inputBox {
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+  }
+  .api-login-page .inputBox .inputText {
+    position: absolute;
+    font-size: 16px;
+    line-height: 50px;
+    transition: .5s;
+    opacity: .5;
+  }
+  .api-login-page .inputBox .input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0, 83, 136, 0.5);
+  }
+  .api-login-page textarea {
+    height: 100px !important;
+  }
+  .api-login-page .button {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #40b87b;
+    color: #fff;
+  }
+.sidenav {
+  height: 100%;
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1d2d66;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  color: #29998b;
+  padding: 6px;
+  display: block;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.img-responsive{
+  width: 100%;
+  margin: auto;
+}
+.api-login-sidebar p{
+  font-size: 24px;
+  padding: 8px;
+}
+
+.api-login-sidebar span{
+  font-size: 24px;
+  padding: 8px;
+}
+
+.heading .active-status {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 40px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #182128;
+  margin-left: 16px;
+}
+
+.api-login{
+  padding-top: 15px;
+}
+.api-login h4{
+  font-size: 24px;
+  font-weight: 400;
+}
+.card-inner{
+  padding: 16px;
+}
+.card-inner h5{
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.table{
+  border: 1px solid #182128;
+}
+.table .thead-light th {
+    color: #182128;
+    background-color: #29998b;
+    font-size: 16px;
+    font-weight: 400;
+}
+.table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #182128;
+  font-size: 14px;
+  font-weight: 300;
+}
+.table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #182128;
+  font-size: 14px;
+  font-weight: 300;
+}
+.btn-secondary{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 16px;
+}
+
+.btn-primary{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 16px;
+}
+
+.api-login-sample .login-top {
+  border-top-style: solid;
+  border-top-color: #005388;
+}
+
+.api-login-sample .card-inner-sample {
+  margin: 80px 0px 40px 0px !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+
+.card-inner-logs h5{
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn-info-update{
+  color: #fff;
+  background-color: #29998b;
+  border-color: #29998b;
+}
