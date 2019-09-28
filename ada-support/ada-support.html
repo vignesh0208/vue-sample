@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="ada-support.css">
+        <title>Ada Support</title>
+    </head>
+    <body>
+        <section id="mySidenav" class="sidenav">
+            <div class="head">
+                <h3><i class="fas fa-archway"></i>
+                    <span><i class="fas fa-user-cog" onclick="openNavbar()"></i><i class="fas fa-times closebtn" onclick="closeNav()"></i></span>
+                </h3>
+            </div>
+            <div class="body">
+                <div class="bot-msg">
+                    <div class="msg-bot">
+                        <div class="msg">
+                            Happy to share more about our platform!
+                        </div>
+                    </div>
+                    <div class="msg-bot" style="margin-left:0px;">
+                        <h4><i class="fas fa-archway"></i></h4>
+                        <div class="msg">
+                            First, what's your name?
+                        </div>
+                    </div>
+                </div>
+                <div class="bot-msg">
+                    <div class="user-msg">
+                        <div class="msg-user">
+                            Nevermind
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <textarea type="text" class="footer-input" placeholder="Ask me something"></textarea>
+                <button class="footer-btn"><i class="fas fa-arrow-circle-up"></i></button>
+                <p>This bot was built on <a href="https://yekaliva.ai">yekaliva.ai</a></p>
+            </div>
+        </section>
+        <section id="mySidenavOver" class="mySidenavOver">
+            <div class="head">
+                <h2 class="font-text"><i class="fas fa-arrow-left closebtn"  onclick="closeNavbar()"></i> Setting</h2>
+            </div>
+            <div class="body" style="height: calc(100vh - 66px); top: 48px;">
+                <div class="body-val" style="min-height: calc(100vh - 176px); margin-bottom: 24px;">
+                    <div class="general">
+                        <h2>General</h2>
+                        <div class="language">
+                            <label>Language</label>
+                            <select class="select">
+                                    <option class="Select-option" value="zh">简体中文</option>
+                                    <option class="Select-option" value="zh-tw">繁體中文</option>
+                                    <option class="Select-option" value="nl">Nederlands</option>
+                                    <option class="Select-option" value="de">Deutsch</option>
+                                    <option class="Select-option" value="en">English</option>
+                                    <option class="Select-option" value="fr">Français</option>
+                                    <option class="Select-option" value="hi">हिन्दी</option>
+                                    <option class="Select-option" value="in">bahasa Indonesia</option>
+                                    <option class="Select-option" value="it">Italiano</option>
+                                    <option class="Select-option" value="ja">日本語</option>
+                                    <option class="Select-option" value="no">Norsk</option>
+                                    <option class="Select-option" value="pt">Português</option>
+                                    <option class="Select-option" value="pa">ਪੰਜਾਬੀ</option>
+                                    <option class="Select-option" value="ru">русский язык</option>
+                                    <option class="Select-option" value="es">Español</option>
+                                    <option class="Select-option" value="tl">Pilipino</option>
+                                    <option class="Select-option" value="tr">Türkçe</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="general">
+                        <h2>Chat Transcript</h2>
+                        <div class="language">
+                            <label>Email Address</label>
+                            <div class="general-input">
+                                <input class="general-email" placeholder="Enter Email" type="email">
+                                <button class="general-send"><i class="fas fa-paper-plane"></i> send</button>
+                            </div>
+                            <div style="text-align:center"><a href="#" class="general-link">Download Transcript</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-logo">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <p>© 2018 Yekaliva.ai</p>
+                    <a href="#" class="links">Terms Privacy</a>
+                    <a href="#" class="links">Policy</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="buttonView" class="button-view">
+            <span style="font-size:30px;" onclick="openNav()"><i class="far fa-paper-plane"></i></span>
+        </section>
+        <script>
+            var x = document.getElementById("mySidenav")
+            var y = document.getElementById("mySidenavOver")
+            function openNav() {
+                x.style.right = "0px";
+                x.style.visibility = "visible"
+                document.body.style.backgroundColor = "#d7d7d7";
+            }
+            function closeNav() {
+                x.style.right = "-400px";
+                x.style.visibility = "hidden"
+                document.body.style.backgroundColor = "white";
+            }
+            function openNavbar() {
+                y.style.right = "0px";
+                y.style.visibility = "visible"
+            }
+            function closeNavbar() {
+                y.style.right = "-400px";
+                y.style.visibility = "hidden"
+            }
+        </script>
+    </body> 
+</html>
